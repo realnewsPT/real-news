@@ -39,6 +39,25 @@
     ]
   },
   {
+    "id": "2026-06-bancada-surpreendida-laboral",
+    "data_publicacao": "2026-06-19",
+    "titulo": "Até a própria bancada do Chega ficou surpreendida com o voto contra o pacote laboral",
+    "categoria": "Incoerência de voto",
+    "resumo": "O Chega chumbou, ao lado de toda a esquerda, a reforma laboral do Governo que apoia noutras matérias — depois de a condicionar a uma redução da idade da reforma que o Executivo recusou. Segundo a notícia, a decisão de última hora apanhou de surpresa a própria bancada parlamentar do partido.",
+    "pessoa": "Chega (bancada parlamentar)",
+    "imagem_preview": "https://zap.aeiou.pt/wp-content/uploads/2026/06/f26b1d3648b717561aca781a0bc2f88b-1500x1000.jpg",
+    "fonte": {
+      "nome": "ZAP",
+      "url": "https://zap.aeiou.pt/bancada-chega-surpreendida-voto-laboral-750258"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "votações",
+      "reforma laboral",
+      "incoerência"
+    ]
+  },
+  {
     "id": "2026-05-mentira-como-metodo",
     "data_publicacao": "2026-05-22",
     "titulo": "Levantamento reúne verificações de factos a Ventura desde 2019",
@@ -54,6 +73,24 @@
     "tags": [
       "fact-check",
       "análise"
+    ]
+  },
+  {
+    "id": "2026-05-tres-frentes-processos",
+    "data_publicacao": "2026-05-12",
+    "titulo": "\"Chega em três frentes\": o mapa dos processos judiciais contra Ventura e o partido em 2026",
+    "categoria": "Processos judiciais",
+    "resumo": "Levantamento identifica três processos judiciais em curso envolvendo André Ventura e o Chega em 2026: uma queixa-crime de difamação de um ex-autarca do PSD, o arquivamento de uma investigação sobre cartazes de campanha visando a comunidade cigana (que os tribunais cíveis já tinham mandado retirar), e buscas da Polícia Judiciária à Câmara de Albufeira, liderada pelo Chega, por alegado discurso de ódio contra ciganos.",
+    "pessoa": "André Ventura / Chega",
+    "imagem_preview": "",
+    "fonte": {
+      "nome": "Sociedade Civil",
+      "url": "https://sociedadecivil.pt/2026/05/12/chega-tres-frentes-processos-ventura-2026/"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "processos judiciais",
+      "justiça"
     ]
   },
   {
@@ -100,6 +137,25 @@
     ]
   },
   {
+    "id": "2026-02-imunidade-levantada-difamacao",
+    "data_publicacao": "2026-02-20",
+    "titulo": "Assembleia levanta imunidade parlamentar de Ventura para responder por queixa de difamação",
+    "categoria": "Processos judiciais",
+    "resumo": "A Assembleia da República autorizou o levantamento da imunidade parlamentar de André Ventura para que possa responder a uma queixa-crime de difamação apresentada por Joaquim Pinto Moreira, ex-deputado do PSD e ex-presidente da Câmara de Espinho. A queixa tem origem em declarações de Ventura numa entrevista à SIC em março de 2025, em que terá dito que Pinto Moreira \"recebeu dinheiro por obras\" e trocou \"obras por prendas\".",
+    "pessoa": "André Ventura",
+    "imagem_preview": "",
+    "fonte": {
+      "nome": "Sociedade Civil",
+      "url": "https://sociedadecivil.pt/2026/05/12/chega-tres-frentes-processos-ventura-2026/"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "processos judiciais",
+      "difamação",
+      "imunidade parlamentar"
+    ]
+  },
+  {
     "id": "2026-entrevista-sic-cinco-falsidades",
     "data_publicacao": "2026-01-20",
     "titulo": "Polígrafo assinala cinco afirmações falsas numa entrevista de Ventura à SIC Notícias",
@@ -116,6 +172,26 @@
       "fact-check",
       "entrevista",
       "declarações"
+    ]
+  },
+  {
+    "id": "2025-12-cartazes-comunidade-cigana",
+    "data_publicacao": "2025-12-22",
+    "titulo": "Tribunal ordena a Ventura que retire cartazes sobre a comunidade cigana em 24 horas",
+    "categoria": "Processos judiciais",
+    "resumo": "O Tribunal Cível de Lisboa decidiu que o Chega tinha de retirar das ruas, no prazo de 24 horas, cartazes com a frase \"os ciganos têm de cumprir a lei\", considerados discriminatórios e ofensivos da honra dos autores da ação. Em caso de incumprimento, Ventura teria de pagar 2.500 euros por cada dia e cartaz não removido.",
+    "pessoa": "André Ventura",
+    "imagem_preview": "https://cdn.jornaldenegocios.pt/images/2025-11/img_1200x676uu2025-11-11-13-06-22-512777.jpg",
+    "fonte": {
+      "nome": "ECO",
+      "url": "https://eco.sapo.pt/2025/12/22/tribunal-decide-ventura-tem-de-retirar-cartazes-contra-a-comunidade-cigana/"
+    },
+    "fontes_adicionais": [
+      "https://www.jornaldenegocios.pt/economia/politica/detalhe/ventura-condenado-a-retirar-cartazes-que-visam-a-comunidade-cigana"
+    ],
+    "tags": [
+      "processos judiciais",
+      "discriminação"
     ]
   },
   {
@@ -156,6 +232,25 @@
     ]
   },
   {
+    "id": "2025-02-multa-tc-financiamento-madeira",
+    "data_publicacao": "2025-02-04",
+    "titulo": "Tribunal Constitucional multa o Chega em 4.388,10€ por irregularidades nas contas da campanha na Madeira",
+    "categoria": "Contas e financiamento",
+    "resumo": "O Tribunal Constitucional confirmou uma coima de 4.388,10€ ao Chega por não ter registado nas contas da campanha às Legislativas Regionais da Madeira de 2019 despesas com viagem, alojamento e refeições de André Ventura, apesar de terem sido feitas com intuito eleitoral.",
+    "pessoa": "Chega (partido)",
+    "imagem_preview": "",
+    "fonte": {
+      "nome": "Tribunal Constitucional",
+      "url": "https://www.tribunalconstitucional.pt/tc/acordaos/20250096.html"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "financiamento",
+      "contas",
+      "Tribunal Constitucional"
+    ]
+  },
+  {
     "id": "2024-09-video-falso-violencia-escolas",
     "data_publicacao": "2024-09-26",
     "titulo": "Ventura partilha vídeo de agressão numa escola do Brasil como se fosse retrato da \"violência\" nas escolas portuguesas",
@@ -191,6 +286,24 @@
       "fake news",
       "incoerência",
       "fact-check"
+    ]
+  },
+  {
+    "id": "2021-12-supremo-condenacao-bandidos",
+    "data_publicacao": "2021-12-06",
+    "titulo": "Supremo Tribunal de Justiça confirma condenação de Ventura e do Chega por chamar \"bandidos\" a uma família",
+    "categoria": "Processos judiciais",
+    "resumo": "O Supremo Tribunal de Justiça manteve a condenação de André Ventura e do Chega por ofensa ao direito à honra e à imagem de uma família do Bairro da Jamaica, exibida numa fotografia ao lado do Presidente da República num debate televisivo, apelidada de \"bandidos\"/\"bandidagem\". Partido e líder foram condenados a pagar 20 mil euros, e Ventura acumulou depois multas adicionais por repetir as ofensas após a condenação inicial.",
+    "pessoa": "André Ventura / Chega",
+    "imagem_preview": "https://images.assettype.com/dn/2024-12-30/d3rj8m67/DIARIONOTICIASPRETOLOGOJPEG.jpg",
+    "fonte": {
+      "nome": "Diário de Notícias",
+      "url": "https://www.dn.pt/politica/supremo-mantem-condenacao-de-chega-e-ventura-no-caso-da-familia-a-quem-chamaram-bandidos-14384954.html"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "processos judiciais",
+      "discriminação"
     ]
   }
 ]

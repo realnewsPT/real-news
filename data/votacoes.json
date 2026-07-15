@@ -1,27 +1,5 @@
 [
   {
-    "id": "2026-reducao-idade-reforma-chega",
-    "data": "2026-07-03",
-    "titulo": "Redução da idade da reforma para os 65 anos ou 40 anos de descontos (projeto do Chega)",
-    "tipo": "Projeto de Lei (Chega)",
-    "fase": "Votação na generalidade",
-    "resultado": "Rejeitado",
-    "votos": {
-      "PSD": "Contra",
-      "PS": "Contra",
-      "IL": "Contra",
-      "CDS-PP": "Contra",
-      "Livre": "Abstenção",
-      "PCP": "Abstenção",
-      "CHEGA": "A Favor",
-      "BE": "A Favor"
-    },
-    "voto_chega": "A Favor",
-    "voto_simbolico": false,
-    "notas": "Projeto de autoria do próprio Chega, chumbado por uma maioria que juntou PSD, PS, IL e CDS-PP. Foi este ponto que dominou o debate e impediu o acordo do Chega com o Governo sobre o pacote laboral, votado na mesma sessão (ver acima).",
-    "fonte_oficial": "https://eco.sapo.pt/2026/07/03/parlamento-rejeita-fim-do-pagamento-de-subvencoes-vitalicias-e-antecipacao-da-idade-da-reforma/"
-  },
-  {
     "id": "2026-fim-subvencoes-vitalicias",
     "data": "2026-07-03",
     "titulo": "Fim do pagamento de subvenções vitalícias a antigos titulares de cargos políticos",
@@ -44,6 +22,28 @@
     "voto_simbolico": true,
     "motivo_simbolico": "PSD e PS, que juntos somam maioria absoluta, votaram ambos contra — chumbo garantido independentemente do sentido de voto do Chega. Apoiar o fim de um privilégio impopular dos antigos titulares de cargos políticos rende imagem sem qualquer custo, porque o resultado nunca esteve em aberto.",
     "notas": "",
+    "fonte_oficial": "https://eco.sapo.pt/2026/07/03/parlamento-rejeita-fim-do-pagamento-de-subvencoes-vitalicias-e-antecipacao-da-idade-da-reforma/"
+  },
+  {
+    "id": "2026-reducao-idade-reforma-chega",
+    "data": "2026-07-03",
+    "titulo": "Redução da idade da reforma para os 65 anos ou 40 anos de descontos (projeto do Chega)",
+    "tipo": "Projeto de Lei (Chega)",
+    "fase": "Votação na generalidade",
+    "resultado": "Rejeitado",
+    "votos": {
+      "PSD": "Contra",
+      "PS": "Contra",
+      "IL": "Contra",
+      "CDS-PP": "Contra",
+      "Livre": "Abstenção",
+      "PCP": "Abstenção",
+      "CHEGA": "A Favor",
+      "BE": "A Favor"
+    },
+    "voto_chega": "A Favor",
+    "voto_simbolico": false,
+    "notas": "Projeto de autoria do próprio Chega, chumbado por uma maioria que juntou PSD, PS, IL e CDS-PP. Foi este ponto que dominou o debate e impediu o acordo do Chega com o Governo sobre o pacote laboral, votado na mesma sessão (ver acima).",
     "fonte_oficial": "https://eco.sapo.pt/2026/07/03/parlamento-rejeita-fim-do-pagamento-de-subvencoes-vitalicias-e-antecipacao-da-idade-da-reforma/"
   },
   {
@@ -94,24 +94,27 @@
     "fonte_oficial": "https://www.cmjornal.pt/sociedade/detalhe/aprovado-diploma-que-proibe-bandeiras-ideologicas-partidarias-ou-associativas-em-edificios-publicos"
   },
   {
-    "id": "2026-iva-zero-bens-essenciais-ps",
+    "id": "2026-pl513-controlo-precos-cabaz-alimentar",
     "data": "2026-04-10",
-    "titulo": "Proposta do PS para IVA zero (ou reduzido) em bens alimentares essenciais",
-    "tipo": "Projeto de Resolução",
-    "fase": "Votação final global",
+    "titulo": "Regime de Controlo de Preços sobre os Produtos do Cabaz Alimentar Essencial (PCP)",
+    "tipo": "Projeto de Lei 513/XVII/1.ª (PCP)",
+    "fase": "Votação na generalidade",
     "resultado": "Rejeitado",
     "votos": {
-      "PS": "A Favor",
       "PSD": "Contra",
       "CHEGA": "Contra",
+      "PS": "Contra",
       "IL": "Abstenção",
-      "CDS-PP": "Contra"
+      "Livre": "A Favor",
+      "PCP": "A Favor",
+      "CDS-PP": "Contra",
+      "BE": "A Favor",
+      "PAN": "A Favor"
     },
     "voto_chega": "Contra",
     "voto_simbolico": false,
-    "notas": "Todas as propostas de IVA zero em bens alimentares essenciais apresentadas nesta sessão (de PS, PCP, PAN, Livre, BE e do próprio Chega) foram rejeitadas — em parte devido à \"norma-travão\" constitucional para iniciativas que impliquem perda de receita sem o aval do Governo. Em contraste com o voto a favor do Chega numa medida semelhante em 2023 (ver acima), desta vez o partido votou contra a proposta do PS.",
-    "fonte_oficial": "https://sapo.pt/artigo/parlamento-rejeita-todas-as-propostas-para-iva-zero-nos-bens-essenciais-69d931f12599cb6fa3db8ee6",
-    "imagem_preview": "https://mb.web.sapo.io/b633706e8318f5ad2e3c8613a7e6deb67d5ca20b.jpg"
+    "notas": "Grelha de votação oficial da Assembleia da República (votação na generalidade). O Chega votou contra este regime de controlo de preços do cabaz alimentar essencial, tal como PSD, PS e CDS-PP.",
+    "fonte_oficial": "https://www.publico.pt/2026/04/10/politica/noticia/parlamento-chumba-propostas-aplicar-iva-zero-bens-alimentares-essenciais-2170792"
   },
   {
     "id": "2026-pl514-preco-referencia-combustiveis-gpl",
@@ -137,27 +140,24 @@
     "fonte_oficial": "https://www.publico.pt/2026/04/10/politica/noticia/parlamento-chumba-propostas-aplicar-iva-zero-bens-alimentares-essenciais-2170792"
   },
   {
-    "id": "2026-pl513-controlo-precos-cabaz-alimentar",
+    "id": "2026-iva-zero-bens-essenciais-ps",
     "data": "2026-04-10",
-    "titulo": "Regime de Controlo de Preços sobre os Produtos do Cabaz Alimentar Essencial (PCP)",
-    "tipo": "Projeto de Lei 513/XVII/1.ª (PCP)",
-    "fase": "Votação na generalidade",
+    "titulo": "Proposta do PS para IVA zero (ou reduzido) em bens alimentares essenciais",
+    "tipo": "Projeto de Resolução",
+    "fase": "Votação final global",
     "resultado": "Rejeitado",
     "votos": {
+      "PS": "A Favor",
       "PSD": "Contra",
       "CHEGA": "Contra",
-      "PS": "Contra",
       "IL": "Abstenção",
-      "Livre": "A Favor",
-      "PCP": "A Favor",
-      "CDS-PP": "Contra",
-      "BE": "A Favor",
-      "PAN": "A Favor"
+      "CDS-PP": "Contra"
     },
     "voto_chega": "Contra",
     "voto_simbolico": false,
-    "notas": "Grelha de votação oficial da Assembleia da República (votação na generalidade). O Chega votou contra este regime de controlo de preços do cabaz alimentar essencial, tal como PSD, PS e CDS-PP.",
-    "fonte_oficial": "https://www.publico.pt/2026/04/10/politica/noticia/parlamento-chumba-propostas-aplicar-iva-zero-bens-alimentares-essenciais-2170792"
+    "notas": "Todas as propostas de IVA zero em bens alimentares essenciais apresentadas nesta sessão (de PS, PCP, PAN, Livre, BE e do próprio Chega) foram rejeitadas — em parte devido à \"norma-travão\" constitucional para iniciativas que impliquem perda de receita sem o aval do Governo. Em contraste com o voto a favor do Chega numa medida semelhante em 2023 (ver acima), desta vez o partido votou contra a proposta do PS.",
+    "fonte_oficial": "https://sapo.pt/artigo/parlamento-rejeita-todas-as-propostas-para-iva-zero-nos-bens-essenciais-69d931f12599cb6fa3db8ee6",
+    "imagem_preview": "https://mb.web.sapo.io/b633706e8318f5ad2e3c8613a7e6deb67d5ca20b.jpg"
   },
   {
     "id": "2026-isp-reducao-limites-combustiveis",
@@ -208,6 +208,24 @@
     "fonte_oficial": "https://sapo.pt/artigo/parlamento-rejeita-proposta-do-chega-para-proibir-bandeiras-ideologicas-em-edificios-publicos-69b41cace4b4028ed2f21c11"
   },
   {
+    "id": "2026-habitacao-final-global",
+    "data": "2026-02-18",
+    "titulo": "Pacote da habitação — versão final, votação final global",
+    "tipo": "Proposta de Lei (Governo)",
+    "fase": "Votação final global",
+    "resultado": "Aprovado",
+    "votos": {
+      "PSD": "A Favor",
+      "CDS-PP": "A Favor",
+      "IL": "A Favor",
+      "CHEGA": "Abstenção"
+    },
+    "voto_chega": "Abstenção",
+    "voto_simbolico": false,
+    "notas": "Tal como na votação na generalidade (ver abaixo), o Chega absteve-se em vez de votar a favor de medidas de habitação apresentadas como prioridade nacional pelo próprio partido nas suas campanhas.",
+    "fonte_oficial": "https://www.publico.pt/2026/02/18/economia/noticia/versao-final-pacote-habitacao-aprovada-abstencao-chega-2165142"
+  },
+  {
     "id": "2026-pcp-preco-botija-gas",
     "data": "2026-01-23",
     "titulo": "Fixação do preço da botija de gás (13kg) em 20 euros (PCP)",
@@ -225,6 +243,29 @@
     "voto_simbolico": false,
     "notas": "O Chega defendeu a redução do IVA do gás (de 23% para 6%) em vez da fixação de um preço máximo, criticando o \"controlo de preços\" proposto pelo PCP.",
     "fonte_oficial": "https://eco.sapo.pt/2026/01/23/parlamento-rejeita-fixar-preco-do-gas-de-botija-mas-vai-debater-descida-do-iva/"
+  },
+  {
+    "id": "2026-habitacao-generalidade",
+    "data": "2026-01-09",
+    "titulo": "Pacote da habitação do Governo — votação na generalidade",
+    "tipo": "Proposta de Lei / Autorização Legislativa (Governo)",
+    "fase": "Votação na generalidade",
+    "resultado": "Aprovado",
+    "votos": {
+      "PSD": "A Favor",
+      "CDS-PP": "A Favor",
+      "IL": "A Favor",
+      "CHEGA": "Abstenção",
+      "PS": "Contra",
+      "Livre": "Contra",
+      "PCP": "Contra",
+      "BE": "Contra"
+    },
+    "voto_chega": "Abstenção",
+    "voto_simbolico": false,
+    "notas": "O Chega absteve-se na generalidade das medidas do pacote da habitação, incluindo nas medidas fiscais — a abstenção, e não um voto ativo a favor, foi o que permitiu ao Governo avançar.",
+    "fonte_oficial": "https://eco.sapo.pt/2026/01/09/parlamento-aprova-plano-de-habitacao-do-governo-com-a-ajuda-do-chega/",
+    "imagem_preview": "https://eco.imgix.net/uploads/2026/01/cropped-doc2026010946319938-aps9704.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200"
   },
   {
     "id": "2025-salario-minimo-recomendacoes-2026",
@@ -275,6 +316,30 @@
     "fonte_oficial": "https://www.rtp.pt/noticias/politica/chega-vota-contra-proposta-de-orcamento-do-estado-para-2026-na-votacao-final-global_n1700255"
   },
   {
+    "id": "2025-pensoes-1-5-proposta-chega",
+    "data": "2025-11-21",
+    "titulo": "Aumento permanente de 1,5% das pensões (proposta de alteração do Chega ao OE2026)",
+    "tipo": "Proposta de alteração (Chega)",
+    "fase": "Especialidade",
+    "resultado": "Rejeitado",
+    "votos": {
+      "PSD": "Contra",
+      "CDS-PP": "Contra",
+      "IL": "Contra",
+      "PS": "Abstenção",
+      "PCP": "Abstenção",
+      "Livre": "Abstenção",
+      "CHEGA": "A Favor",
+      "BE": "A Favor",
+      "PAN": "A Favor",
+      "JPP": "A Favor"
+    },
+    "voto_chega": "A Favor",
+    "voto_simbolico": false,
+    "notas": "Proposta do próprio Chega, chumbada pelos votos contra de PSD, CDS-PP e IL. O partido usou o chumbo para acusar o Governo de \"cortar sempre no bolso de quem trabalhou uma vida inteira\" — mas o Chega viria, poucos dias depois, a votar contra o Orçamento do Estado que incluía o aumento do salário mínimo negociado (ver abaixo).",
+    "fonte_oficial": "https://folhanacional.pt/2025/11/21/chega-volta-a-ver-aumento-das-pensoes-chumbado-e-acusa-governo-de-cortar-sempre-no-bolso-de-quem-trabalhou-uma-vida-inteira/"
+  },
+  {
     "id": "2025-lei-estrangeiros-nova-versao",
     "data": "2025-09-30",
     "titulo": "Lei dos Estrangeiros — nova versão após chumbo do Tribunal Constitucional",
@@ -297,6 +362,28 @@
     "voto_simbolico": false,
     "notas": "O voto do Chega foi decisivo para desbloquear o impasse depois de o Tribunal Constitucional ter chumbado a versão original da lei — ao contrário dos casos assinalados como \"voto sem custo\" nesta página, este voto teve impacto real.",
     "fonte_oficial": "https://www.publico.pt/2025/09/30/politica/noticia/chega-deixa-cair-proibicao-acesso-imigrantes-apoios-viabiliza-versao-psd-2149041"
+  },
+  {
+    "id": "2025-transparencia-notificacao-declaracao-rendimentos",
+    "data": "2025-02-21",
+    "titulo": "Notificação automática a titulares de cargos políticos quando a sua declaração de rendimentos é consultada",
+    "tipo": "Projeto de Lei (PSD)",
+    "fase": "Votação final global",
+    "resultado": "Aprovado",
+    "votos": {
+      "PSD": "A Favor",
+      "IL": "A Favor",
+      "PS": "Abstenção",
+      "Livre": "Abstenção",
+      "BE": "Abstenção",
+      "CHEGA": "Contra",
+      "PCP": "Contra",
+      "PAN": "Contra"
+    },
+    "voto_chega": "Contra",
+    "voto_simbolico": false,
+    "notas": "O Chega votou contra uma medida de transparência que passou a avisar um político sempre que a sua declaração de rendimentos é consultada por outra pessoa — a proposta foi aprovada apesar do voto contra do partido.",
+    "fonte_oficial": "https://observador.pt/2025/02/21/aprovada-notificacao-automatica-de-politicos-apos-consulta-de-declaracao-de-rendimentos/"
   },
   {
     "id": "2023-iva-zero-cabaz-alimentar",
