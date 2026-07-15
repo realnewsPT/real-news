@@ -413,12 +413,53 @@ main {
 
 /* Sobre */
 .prose h2 {
-  font-size: 1.15rem;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
   margin-top: 1.8rem;
 }
 
 .prose p, .prose li {
   color: var(--text-muted);
+}
+
+/* Opinião */
+.badge--opiniao {
+  background: color-mix(in srgb, var(--accent-2) 18%, transparent);
+  color: var(--accent-2);
+  margin-bottom: 0.6rem;
+}
+
+.byline {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.disclaimer--opiniao {
+  border-left-color: var(--accent-2);
+}
+
+.prose--opiniao {
+  max-width: 68ch;
+}
+
+.prose--opiniao p {
+  color: var(--text);
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+.prose--opiniao h2 {
+  font-size: 1.3rem;
+}
+
+.prose__signoff {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.1rem;
+  text-align: right;
+  margin-top: 2rem;
+  color: var(--text-muted) !important;
 }
 
 .site-footer {

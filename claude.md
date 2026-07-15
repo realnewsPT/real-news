@@ -39,6 +39,7 @@ Verifica) quando o rótulo for "falso"/"mentira". Ver `plan.md` secção 7.
 ```
 index.html          feed de polémicas (tipo blog)
 votacoes.html        histórico de votos do Chega na Assembleia
+opiniao.html          artigo de opinião assinado (A.M.) — ver regra abaixo
 sobre.html            metodologia, fontes, correções
 assets/css/style.css
 assets/js/{feed,votacoes,utils}.js
@@ -86,6 +87,20 @@ Qualquer citação usada num banner segue a mesma regra editorial: texto exato,
 fonte verificável, contexto correto (cargo/data certos). Não voltar a assumir
 que Ventura foi deputado do PSD — nunca foi; foi candidato autárquico pelo PSD
 em Loures (2017) e fundou o Chega em 2019.
+
+## Página de Opinião (opiniao.html)
+
+Ao contrário de `index.html`/`votacoes.html` (factuais, sem interpretação),
+`opiniao.html` é um artigo de comentário assinado ("A.M.") com tom forte e
+argumentativo — é o único sítio do site onde isso é aceitável. Mesmo assim:
+- Continua identificado como **opinião**, visual e textualmente (badge
+  "Opinião", disclaimer explícito, `sobre.html` explica a distinção).
+- Cada facto usado no texto (citações, votos, número de mentiras assinaladas)
+  tem de estar já documentado com fonte em `posts.json`/`votacoes.json`, ou
+  linkar diretamente para a fonte externa — o tom pode ser duro, os factos não
+  podem ser inventados ou esticados além do que a fonte diz.
+- Atualizar este artigo quando surgirem novos casos relevantes documentados
+  nas outras secções, mantendo a mesma disciplina de sourcing.
 
 ## O que NÃO fazer
 

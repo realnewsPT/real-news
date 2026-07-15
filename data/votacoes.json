@@ -1,25 +1,22 @@
 [
   {
-    "id": "2026-pl514-preco-referencia-combustiveis-gpl",
+    "id": "2026-iva-zero-bens-essenciais-ps",
     "data": "2026-04-10",
-    "titulo": "Fixa um Preço de Referência para combater a especulação e reduzir os preços dos combustíveis e do GPL (PCP)",
-    "tipo": "Projeto de Lei 514/XVII/1.ª (PCP)",
-    "fase": "Votação na generalidade",
+    "titulo": "Proposta do PS para IVA zero (ou reduzido) em bens alimentares essenciais",
+    "tipo": "Projeto de Resolução",
+    "fase": "Votação final global",
     "resultado": "Rejeitado",
     "votos": {
+      "PS": "A Favor",
       "PSD": "Contra",
       "CHEGA": "Contra",
-      "PS": "Contra",
       "IL": "Abstenção",
-      "Livre": "A Favor",
-      "PCP": "A Favor",
-      "CDS-PP": "Contra",
-      "BE": "A Favor",
-      "PAN": "A Favor"
+      "CDS-PP": "Contra"
     },
     "voto_chega": "Contra",
-    "notas": "Grelha de votação oficial da Assembleia da República (votação na generalidade), na mesma sessão do projeto sobre o cabaz alimentar acima. O Chega votou contra fixar um preço de referência para travar a especulação nos combustíveis e no GPL.",
-    "fonte_oficial": "https://www.publico.pt/2026/04/10/politica/noticia/parlamento-chumba-propostas-aplicar-iva-zero-bens-alimentares-essenciais-2170792"
+    "notas": "Todas as propostas de IVA zero em bens alimentares essenciais apresentadas nesta sessão (de PS, PCP, PAN, Livre, BE e do próprio Chega) foram rejeitadas — em parte devido à \"norma-travão\" constitucional para iniciativas que impliquem perda de receita sem o aval do Governo. Em contraste com o voto a favor do Chega numa medida semelhante em 2023 (ver acima), desta vez o partido votou contra a proposta do PS.",
+    "fonte_oficial": "https://sapo.pt/artigo/parlamento-rejeita-todas-as-propostas-para-iva-zero-nos-bens-essenciais-69d931f12599cb6fa3db8ee6",
+    "imagem_preview": "https://mb.web.sapo.io/b633706e8318f5ad2e3c8613a7e6deb67d5ca20b.jpg"
   },
   {
     "id": "2026-pl513-controlo-precos-cabaz-alimentar",
@@ -44,23 +41,26 @@
     "fonte_oficial": "https://www.publico.pt/2026/04/10/politica/noticia/parlamento-chumba-propostas-aplicar-iva-zero-bens-alimentares-essenciais-2170792"
   },
   {
-    "id": "2026-iva-zero-bens-essenciais-ps",
+    "id": "2026-pl514-preco-referencia-combustiveis-gpl",
     "data": "2026-04-10",
-    "titulo": "Proposta do PS para IVA zero (ou reduzido) em bens alimentares essenciais",
-    "tipo": "Projeto de Resolução",
-    "fase": "Votação final global",
+    "titulo": "Fixa um Preço de Referência para combater a especulação e reduzir os preços dos combustíveis e do GPL (PCP)",
+    "tipo": "Projeto de Lei 514/XVII/1.ª (PCP)",
+    "fase": "Votação na generalidade",
     "resultado": "Rejeitado",
     "votos": {
-      "PS": "A Favor",
       "PSD": "Contra",
       "CHEGA": "Contra",
+      "PS": "Contra",
       "IL": "Abstenção",
-      "CDS-PP": "Contra"
+      "Livre": "A Favor",
+      "PCP": "A Favor",
+      "CDS-PP": "Contra",
+      "BE": "A Favor",
+      "PAN": "A Favor"
     },
     "voto_chega": "Contra",
-    "notas": "Todas as propostas de IVA zero em bens alimentares essenciais apresentadas nesta sessão (de PS, PCP, PAN, Livre, BE e do próprio Chega) foram rejeitadas — em parte devido à \"norma-travão\" constitucional para iniciativas que impliquem perda de receita sem o aval do Governo. Em contraste com o voto a favor do Chega numa medida semelhante em 2023 (ver acima), desta vez o partido votou contra a proposta do PS.",
-    "fonte_oficial": "https://sapo.pt/artigo/parlamento-rejeita-todas-as-propostas-para-iva-zero-nos-bens-essenciais-69d931f12599cb6fa3db8ee6",
-    "imagem_preview": "https://mb.web.sapo.io/b633706e8318f5ad2e3c8613a7e6deb67d5ca20b.jpg"
+    "notas": "Grelha de votação oficial da Assembleia da República (votação na generalidade), na mesma sessão do projeto sobre o cabaz alimentar acima. O Chega votou contra fixar um preço de referência para travar a especulação nos combustíveis e no GPL.",
+    "fonte_oficial": "https://www.publico.pt/2026/04/10/politica/noticia/parlamento-chumba-propostas-aplicar-iva-zero-bens-alimentares-essenciais-2170792"
   },
   {
     "id": "2026-isp-reducao-limites-combustiveis",
