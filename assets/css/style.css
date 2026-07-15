@@ -57,6 +57,43 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.55;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: 0.16;
+  pointer-events: none;
+}
+
+body::before {
+  width: 42vw;
+  height: 42vw;
+  max-width: 560px;
+  max-height: 560px;
+  top: -12vw;
+  right: -10vw;
+  background: radial-gradient(circle, var(--accent), transparent 70%);
+}
+
+body::after {
+  width: 36vw;
+  height: 36vw;
+  max-width: 480px;
+  max-height: 480px;
+  bottom: -10vw;
+  left: -8vw;
+  background: radial-gradient(circle, var(--accent-2), transparent 70%);
+}
+
+@media (prefers-color-scheme: dark) {
+  body::before, body::after { opacity: 0.28; }
 }
 
 a { color: var(--accent); text-decoration: none; }
@@ -65,7 +102,8 @@ a:hover { text-decoration: underline; }
 img { max-width: 100%; display: block; }
 
 .site-header {
-  background: var(--bg-elevated);
+  background: color-mix(in srgb, var(--bg-elevated) 88%, transparent);
+  backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
   position: sticky;
   top: 0;
@@ -100,14 +138,28 @@ img { max-width: 100%; display: block; }
 }
 
 .site-nav a {
+  position: relative;
   color: var(--text-muted);
   font-weight: 600;
   font-size: 0.92rem;
+  padding-bottom: 0.3rem;
 }
 
 .site-nav a[aria-current="page"],
 .site-nav a:hover {
   color: var(--accent);
+}
+
+.site-nav a[aria-current="page"]::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--accent);
 }
 
 main {
@@ -117,13 +169,16 @@ main {
 }
 
 .hero {
-  background: var(--bg-elevated);
+  position: relative;
+  background: color-mix(in srgb, var(--bg-elevated) 92%, transparent);
+  backdrop-filter: blur(6px);
   border: 1px solid var(--border);
   border-top: 4px solid transparent;
   border-image: linear-gradient(90deg, var(--accent), var(--accent-2)) 1;
-  border-radius: var(--radius);
+  border-radius: calc(var(--radius) + 6px);
   padding: 1.8rem 1.6rem 1.5rem;
   margin-bottom: 1.75rem;
+  overflow: hidden;
 }
 
 .hero__eyebrow {
@@ -225,18 +280,21 @@ main {
 }
 
 .post-card {
-  background: var(--bg-elevated);
+  position: relative;
+  background: color-mix(in srgb, var(--bg-elevated) 94%, transparent);
+  backdrop-filter: blur(6px);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius: calc(var(--radius) + 6px);
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
 .post-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+  border-color: color-mix(in srgb, var(--accent) 40%, var(--border));
 }
 
 .post-card__link {
@@ -248,6 +306,7 @@ main {
 }
 
 .post-card__image {
+  position: relative;
   aspect-ratio: 16 / 9;
   background: linear-gradient(135deg, var(--border), var(--bg));
   display: flex;
@@ -259,6 +318,24 @@ main {
 
 .post-card__image img { width: 100%; height: 100%; object-fit: cover; }
 
+.post-card__index {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.6rem;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #fff;
+  background: color-mix(in srgb, #000 35%, transparent);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
 .post-card__body {
   padding: 0.9rem 1rem 1.1rem;
   display: flex;
@@ -267,24 +344,30 @@ main {
   flex: 1;
 }
 
-.badge {
-  display: inline-block;
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  padding: 0.22rem 0.6rem;
-  border-radius: 4px;
-  background: color-mix(in srgb, var(--cat-1) 15%, transparent);
-  color: var(--cat-1);
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--text-muted);
   width: fit-content;
 }
 
-.badge[data-cat="1"] { background: color-mix(in srgb, var(--cat-1) 15%, transparent); color: var(--cat-1); }
-.badge[data-cat="2"] { background: color-mix(in srgb, var(--cat-2) 18%, transparent); color: var(--cat-2); }
-.badge[data-cat="3"] { background: color-mix(in srgb, var(--cat-3) 18%, transparent); color: var(--cat-3); }
-.badge[data-cat="4"] { background: color-mix(in srgb, var(--cat-4) 18%, transparent); color: var(--cat-4); }
-.badge[data-cat="5"] { background: color-mix(in srgb, var(--cat-5) 18%, transparent); color: var(--cat-5); }
+.tag::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--cat-1);
+  flex-shrink: 0;
+}
+
+.tag[data-cat="1"]::before { background: var(--cat-1); }
+.tag[data-cat="2"]::before { background: var(--cat-2); }
+.tag[data-cat="3"]::before { background: var(--cat-3); }
+.tag[data-cat="4"]::before { background: var(--cat-4); }
+.tag[data-cat="5"]::before { background: var(--cat-5); }
 
 .post-card__title {
   font-family: var(--font-serif);
@@ -316,23 +399,91 @@ main {
   padding: 3rem 1rem;
 }
 
-/* Votações */
+/* Votações — linha do tempo */
 .vote-list {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 1.6rem;
+  padding-left: 2.2rem;
+}
+
+.vote-list::before {
+  content: "";
+  position: absolute;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  left: 0.55rem;
+  width: 2px;
+  background: linear-gradient(180deg, var(--accent), var(--accent-2));
+  opacity: 0.4;
+}
+
+.vote-item {
+  position: relative;
+}
+
+.vote-item__marker {
+  position: absolute;
+  top: 0.35rem;
+  left: -2.2rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--accent);
+}
+
+.vote-item__marker--simbolico {
+  border-color: var(--abstencao);
+  background: color-mix(in srgb, var(--abstencao) 30%, var(--bg));
+}
+
+.vote-item__date {
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.4rem;
 }
 
 .vote-card {
-  background: var(--bg-elevated);
+  background: color-mix(in srgb, var(--bg-elevated) 94%, transparent);
+  backdrop-filter: blur(6px);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius: calc(var(--radius) + 4px);
   padding: 1rem;
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 0.6rem 1rem;
   align-items: start;
+  transition: border-color 0.18s ease;
 }
+
+.vote-card:hover {
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+}
+
+.vote-card--simbolico {
+  border-color: color-mix(in srgb, var(--abstencao) 45%, var(--border));
+}
+
+.vote-card__simbolico-chip {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.84rem;
+  color: var(--abstencao);
+  background: color-mix(in srgb, var(--abstencao) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--abstencao) 35%, transparent);
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+  margin-top: 0.2rem;
+}
+
+.vote-card__simbolico-chip strong { color: var(--abstencao); }
 
 .vote-card__image {
   grid-column: 1 / -1;
@@ -424,9 +575,19 @@ main {
 
 /* Opinião */
 .badge--opiniao {
-  background: color-mix(in srgb, var(--accent-2) 18%, transparent);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent-2) 16%, transparent);
   color: var(--accent-2);
-  margin-bottom: 0.6rem;
+  border: 1px solid color-mix(in srgb, var(--accent-2) 35%, transparent);
+  margin-bottom: 0.7rem;
+  width: fit-content;
 }
 
 .byline {
@@ -475,4 +636,7 @@ main {
 @media (max-width: 600px) {
   .vote-card { grid-template-columns: 1fr; }
   .page-intro h1 { font-size: 1.35rem; }
+  .vote-list { padding-left: 1.6rem; }
+  .vote-item__marker { left: -1.6rem; }
+  body::before, body::after { display: none; }
 }

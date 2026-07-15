@@ -1,5 +1,44 @@
 [
   {
+    "id": "2026-07-voto-sem-custo-subvencoes-reforma",
+    "data_publicacao": "2026-07-03",
+    "titulo": "Mesma sessão, dois pesos: Chega vota a favor do fim das subvenções vitalícias (chumbado) e propõe baixar a idade da reforma (chumbado)",
+    "categoria": "Voto sem custo político",
+    "resumo": "A 3 de julho de 2026, o Chega votou a favor de acabar com as subvenções vitalícias a antigos titulares de cargos políticos — uma medida popular, mas condenada ao chumbo porque PSD e PS, juntos maioria absoluta, votaram contra. No mesmo dia, o próprio projeto do Chega para baixar a idade da reforma foi também rejeitado, por uma maioria que incluiu PSD, PS, IL e CDS-PP.",
+    "pessoa": "Chega (bancada parlamentar)",
+    "imagem_preview": "https://eco.imgix.net/uploads/2026/07/cropped-6190879.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200",
+    "fonte": {
+      "nome": "ECO",
+      "url": "https://eco.sapo.pt/2026/07/03/parlamento-rejeita-fim-do-pagamento-de-subvencoes-vitalicias-e-antecipacao-da-idade-da-reforma/"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "voto sem custo",
+      "votações",
+      "reforma",
+      "pensões"
+    ]
+  },
+  {
+    "id": "2026-06-pacote-laboral-chumbado",
+    "data_publicacao": "2026-06-19",
+    "titulo": "Chega junta-se à esquerda e chumba a reforma laboral do próprio Governo que apoia noutras matérias",
+    "categoria": "Voto sem custo político",
+    "resumo": "O Chega tinha colocado como condição para aprovar o pacote laboral do Governo a redução da idade da reforma. Sem acordo com o Executivo, o partido votou contra ao lado de todos os partidos à sua esquerda, chumbando uma reforma que o próprio Governo que apoia noutras votações queria aprovar — e apanhando o Executivo de surpresa.",
+    "pessoa": "Chega (bancada parlamentar)",
+    "imagem_preview": "https://cdn-images.rtp.pt/icm/noticias/images/12/12a2a365de37d9ade976da89610e8ec5?w=860&q=90&rect=0,138,1500,822&auto=format",
+    "fonte": {
+      "nome": "RTP",
+      "url": "https://www.rtp.pt/noticias/economia/chega-vota-contra-proposta-do-governo-do-pacote-laboral-e-reforma-e-chumbada_e1748042"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "votações",
+      "reforma laboral",
+      "governo"
+    ]
+  },
+  {
     "id": "2026-05-mentira-como-metodo",
     "data_publicacao": "2026-05-22",
     "titulo": "Levantamento reúne verificações de factos a Ventura desde 2019",
@@ -15,6 +54,27 @@
     "tags": [
       "fact-check",
       "análise"
+    ]
+  },
+  {
+    "id": "2026-bandeiras-projeto-proprio-chumbado-depois-aprovado",
+    "data_publicacao": "2026-04-17",
+    "titulo": "O Chega viu o seu próprio projeto sobre bandeiras chumbado — e um mês depois aprovou uma versão quase igual do CDS-PP",
+    "categoria": "Incoerência de voto",
+    "resumo": "Em março de 2026, o projeto do Chega para proibir bandeiras \"ideológicas\" em edifícios públicos foi rejeitado, apoiado apenas pelo CDS-PP. Um mês depois, uma proposta do CDS-PP com o mesmo objetivo foi aprovada, agora com o voto do Chega. O diploma acabaria por ser devolvido ao Parlamento pelo Presidente da República, sem promulgação, em junho de 2026.",
+    "pessoa": "Chega (bancada parlamentar)",
+    "imagem_preview": "https://cdn.cmjornal.pt/images/2020-05/img_1280x721uu2020-05-17-11-36-04-943229.jpg",
+    "fonte": {
+      "nome": "Correio da Manhã",
+      "url": "https://www.cmjornal.pt/sociedade/detalhe/aprovado-diploma-que-proibe-bandeiras-ideologicas-partidarias-ou-associativas-em-edificios-publicos"
+    },
+    "fontes_adicionais": [
+      "https://sapo.pt/artigo/parlamento-rejeita-proposta-do-chega-para-proibir-bandeiras-ideologicas-em-edificios-publicos-69b41cace4b4028ed2f21c11"
+    ],
+    "tags": [
+      "votações",
+      "incoerência",
+      "bandeiras"
     ]
   },
   {
@@ -93,6 +153,25 @@
       "fact-check",
       "redes sociais",
       "imigração"
+    ]
+  },
+  {
+    "id": "2024-09-video-falso-violencia-escolas",
+    "data_publicacao": "2024-09-26",
+    "titulo": "Ventura partilha vídeo de agressão numa escola do Brasil como se fosse retrato da \"violência\" nas escolas portuguesas",
+    "categoria": "Fact-check",
+    "resumo": "André Ventura publicou um vídeo com a legenda \"esta é a violência que reina nas escolas, fruto da impunidade\", sugerindo tratar-se de uma escola portuguesa. O Polígrafo confirmou que as imagens eram de uma escola em Carapicuíba, no Brasil, gravadas cerca de cinco anos antes. Apesar da verificação, a publicação manteve-se online, acumulando centenas de partilhas.",
+    "pessoa": "André Ventura",
+    "imagem_preview": "https://poligrafo.sapo.pt/wp-content/uploads/2024/09/fe884a8f-8daf-4d07-b92c-cc9c82eca890.png",
+    "fonte": {
+      "nome": "Polígrafo",
+      "url": "https://poligrafo.sapo.pt/fact-check/video-partilhado-por-andre-ventura-mostra-violencia-que-reina-nas-escolas-em-portugal/"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "fact-check",
+      "educação",
+      "redes sociais"
     ]
   },
   {

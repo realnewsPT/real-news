@@ -33,18 +33,20 @@ function categorySlot(categoria) {
   return CATEGORY_SLOTS.get(categoria);
 }
 
-function renderPost(post) {
+function renderPost(post, index) {
   const hasImage = Boolean(post.imagem_preview);
+  const numero = String(index + 1).padStart(2, "0");
   return `
     <article class="post-card">
       <a class="post-card__link" href="${escapeHTML(post.fonte?.url || "#")}" target="_blank" rel="noopener">
         <div class="post-card__image">
+          <span class="post-card__index">${numero}</span>
           ${hasImage
             ? `<img src="${escapeHTML(post.imagem_preview)}" alt="" loading="lazy" />`
             : "Sem imagem de pré-visualização"}
         </div>
         <div class="post-card__body">
-          <span class="badge" data-cat="${categorySlot(post.categoria)}">${escapeHTML(post.categoria || "Outro")}</span>
+          <span class="tag" data-cat="${categorySlot(post.categoria)}">${escapeHTML(post.categoria || "Outro")}</span>
           <h2 class="post-card__title">${escapeHTML(post.titulo)}</h2>
           <p class="post-card__summary">${escapeHTML(post.resumo)}</p>
           <div class="post-card__meta">
@@ -68,7 +70,7 @@ function render() {
     .sort((a, b) => (a.data_publicacao < b.data_publicacao ? 1 : -1));
 
   grid.innerHTML = filtrados.length
-    ? filtrados.map(renderPost).join("")
+    ? filtrados.map((post, i) => renderPost(post, i)).join("")
     : `<p class="empty-state">Nenhuma entrada encontrada com estes filtros.</p>`;
 }
 

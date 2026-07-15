@@ -33,18 +33,27 @@ Verifica) quando o rótulo for "falso"/"mentira". Ver `plan.md` secção 7.
 - Imagens de artigos de terceiros: **nunca copiar/hospedar localmente**. Usar
   só o `og:image` como preview com link de saída (`target="_blank"
   rel="noopener"`) para a publicação original.
+- Linguagem visual: tema escuro/claro automático (`prefers-color-scheme`),
+  azul moderno (`--accent`) + azul-petróleo (`--accent-2`) em gradiente,
+  fundo com dois "blobs" radiais decorativos (`body::before/::after`),
+  cartões em vidro fosco (`backdrop-filter: blur`), títulos em serifada
+  (`--font-serif`, ex. Georgia) para um ar mais editorial/humano, corpo em
+  sans-serif. Cartões do feed têm numeração ("01", "02"...) sobre a imagem.
+  Categorias usam a classe `.tag` (ponto colorido + texto), **nunca** um
+  badge maiúsculo tipo "FACT-CHECK" — isso foi pedido explicitamente para
+  evitar um ar "robotizado"/gerado por template.
 
 ## Estrutura
 
 ```
 index.html          feed de polémicas (tipo blog)
-votacoes.html        histórico de votos do Chega na Assembleia
+votacoes.html        votações do Chega, em linha do tempo cronológica
 opiniao.html          artigo de opinião assinado (A.M.) — ver regra abaixo
 sobre.html            metodologia, fontes, correções
 assets/css/style.css
 assets/js/{feed,votacoes,utils}.js
 data/{posts,votacoes,deputados}.json
-scripts/{fetch-votacoes,fetch-noticias,build-feeds}.mjs
+scripts/{fetch-votacoes,fetch-noticias,build-feeds,dev-server}.mjs  (dev-server.mjs = servidor local p/ testar sem Python)
 .github/workflows/weekly-update.yml
 ```
 
@@ -53,11 +62,23 @@ scripts/{fetch-votacoes,fetch-noticias,build-feeds}.mjs
 - `votacoes.json`: um objeto por votação — `id`, `data`, `titulo`, `tipo`,
   `resultado` (Aprovado/Rejeitado), `votos` (por partido), `voto_chega`,
   `fonte_oficial`. Vem de fontes oficiais (dados abertos do parlamento /
-  openAR) — **sem interpretação subjetiva**, só factos.
+  openAR / grelhas oficiais de votação / notícias que reportam o resultado
+  oficial) — **sem interpretação subjetiva**, só factos. Ficheiro guardado por
+  ordem descendente (mais recente primeiro), mas `votacoes.js` reordena para
+  **cronológica ascendente** ao renderizar a linha do tempo.
+  - `voto_simbolico` (boolean): `true` quando, no momento da votação, o
+    resultado já estava matematicamente decidido por outros partidos —
+    o voto do Chega não podia, por si só, mudar o desfecho. Critério
+    objetivo (contagem de votos), não estético. Quando `true`, incluir
+    `motivo_simbolico` (string) a explicar a conta. Renderizado como aviso
+    "⚠ Voto sem custo político" no `vote-card`.
 - `posts.json`: um objeto por caso — `data_publicacao`, `titulo` (neutro),
   `categoria`, `resumo` (factual, sem adjetivação), `pessoa`,
   `imagem_preview` (URL externo), `fonte` (nome + url obrigatórios),
-  `tags`.
+  `tags`. Categorias em uso: "Fact-check", "Incoerência de voto",
+  "Incoerência de discurso", "Voto sem custo político" — usadas em `feed.js`
+  como etiqueta discreta (ponto colorido + texto em caixa normal), não como
+  badge maiúsculo/gritado.
 
 ## Fontes de dados aprovadas
 
@@ -113,5 +134,11 @@ argumentativo — é o único sítio do site onde isso é aceitável. Mesmo assi
 
 ## Estado atual
 
-Projeto na fase de planeamento (ver `plan.md` secção 8, Fase 0). Ainda não há
-código nem repositório git inicializado.
+Site publicado e ao vivo em GitHub Pages (repositório `realnewsPT/real-news`,
+branch `main`). Deploy é automático a cada `git push` para `main` (~1 min).
+A automação semanal via GitHub Actions ainda não teve as permissões de
+Actions confirmadas pelo utilizador (passo pendente: Settings → Actions →
+General → Workflow permissions → Read and write). Até lá, atualizações de
+dados são feitas manualmente por sessões do Claude Code: editar
+`data/posts.json`/`data/votacoes.json`, correr
+`node scripts/build-feeds.mjs` para validar, e `git add`/`commit`/`push`.

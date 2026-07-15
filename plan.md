@@ -184,20 +184,33 @@ importante para reduzir risco editorial.
 
 ## 6. Design / UX
 
-- **Mobile-first**, breakpoints em ~600px e ~960px; CSS Grid com
-  `auto-fit`/`minmax()` para os cartões do feed, sem media queries excessivas.
-- Paleta neutra e sóbria (não partidária nas cores — evitar laranja/CHEGA como
-  cor dominante para não parecer material do próprio partido); tipografia
-  legível, alto contraste, `prefers-color-scheme` para dark mode.
-- **Feed (index.html):** cartões com imagem-preview, categoria (badge),
-  título, resumo, data, fonte. Filtros por categoria/tag/data no topo.
-  Paginação ou "carregar mais" (evitar scroll infinito pesado).
-- **Votações (votacoes.html):** tabela/lista responsiva (em ecrã pequeno,
-  colapsa para cartões empilhados); filtros por resultado, por tipo de
-  iniciativa, por intervalo de datas; indicador visual claro do voto do CHEGA
-  (cor/ícone) e do resultado final.
+- **Mobile-first**, breakpoints em ~600px; CSS Grid com `auto-fit`/`minmax()`
+  para os cartões do feed, sem media queries excessivas.
+- Paleta não partidária (evitar laranja/CHEGA), com azul moderno (`--accent`)
+  e azul-petróleo (`--accent-2`) em gradiente; `prefers-color-scheme` para
+  dark mode automático, com blobs radiais decorativos no fundo e cartões em
+  vidro fosco (`backdrop-filter: blur`) para um visual mais "captivante" e
+  menos genérico. Títulos em serifada (editorial), corpo em sans-serif.
+- **Categorias/etiquetas:** deliberadamente discretas — ponto colorido +
+  texto em caixa normal (classe `.tag`), nunca um badge maiúsculo tipo
+  "FACT-CHECK". Esse estilo foi tentado e explicitamente rejeitado pelo
+  utilizador por parecer "robotizado"/gerado por template.
+- **Feed (index.html):** cartões numerados ("01", "02"...) com
+  imagem-preview, etiqueta de categoria, título, resumo, data, fonte.
+  Filtros por categoria/texto no topo.
+- **Votações (votacoes.html):** apresentada como **linha do tempo
+  cronológica** (mais antiga → mais recente), com marcador ligado por uma
+  linha vertical, replicando o efeito de um "histórico" tipo currículo.
+  Indicador visual do voto do CHEGA (cor/ícone) e do resultado final.
+  Entradas em que o resultado já estava matematicamente decidido
+  independentemente do voto do Chega são assinaladas com um aviso "⚠ Voto
+  sem custo político" (campo `voto_simbolico` + `motivo_simbolico`) — ver
+  `sobre.html` para o critério exato de quando este selo se aplica.
 - **Sobre/Metodologia:** obrigatória — explica critérios de inclusão, fontes,
-  como corrigir um erro.
+  como corrigir um erro, e o critério do selo "voto sem custo político".
+- **Opinião (opiniao.html):** único espaço do site com tom de comentário
+  (assinado, não neutro) — sempre identificado como tal visualmente, e
+  sempre ancorado em factos já sourced nas outras secções.
 
 ## 7. Risco legal e editorial (importante)
 
@@ -218,23 +231,37 @@ importante para reduzir risco editorial.
 
 ## 8. Fases de implementação
 
-1. **Fase 0 — Fundação:** estrutura de ficheiros, `claude.md`, esqueleto HTML/CSS
-   responsivo, dados de exemplo (mock) em `posts.json`/`votacoes.json`.
-2. **Fase 1 — Feed de polémicas:** `index.html` funcional com dados mock,
-   filtros, layout responsivo validado em telemóvel/portátil.
-3. **Fase 2 — Secção de votações:** `votacoes.html` com dados mock (5–10
-   votações reais recolhidas manualmente para validar o esquema).
-4. **Fase 3 — Scripts de recolha:** `fetch-votacoes.mjs` ligado a
-   openAR/dados abertos; `fetch-noticias.mjs` ligado a RSS + Polígrafo.
-5. **Fase 4 — Automação:** GitHub Action semanal, fluxo de PR de revisão.
-6. **Fase 5 — Deploy:** GitHub Pages, domínio (opcional), teste em
-   dispositivos reais.
-7. **Fase 6 — Conteúdo inicial:** popular com um histórico razoável (ex.:
-   legislatura atual) antes do lançamento público.
+1. **Fase 0 — Fundação:** ✅ estrutura de ficheiros, `claude.md`, esqueleto
+   HTML/CSS responsivo.
+2. **Fase 1 — Feed de polémicas:** ✅ `index.html` funcional, com dados reais
+   (não mock) desde o início, filtros, layout responsivo, cartões numerados.
+3. **Fase 2 — Secção de votações:** ✅ `votacoes.html` com 14 votações reais
+   (2023–2026), apresentadas em linha do tempo cronológica, com o selo "voto
+   sem custo político" nos casos aplicáveis.
+4. **Fase 2.5 — Página de Opinião:** ✅ `opiniao.html`, comentário assinado
+   (A.M.), ancorado nos factos documentados nas outras secções.
+5. **Fase 3 — Scripts de recolha:** ✅ esqueleto criado
+   (`fetch-votacoes.mjs`/`fetch-noticias.mjs`/`build-feeds.mjs`); recolha real
+   de conteúdo continua a ser feita manualmente por sessões do Claude Code via
+   pesquisa web, não pela automação ainda.
+6. **Fase 4 — Automação:** workflow `weekly-update.yml` criado, mas as
+   permissões de GitHub Actions (Settings → Actions → Workflow permissions)
+   ainda não foram confirmadas pelo utilizador — pendente.
+7. **Fase 5 — Deploy:** ✅ publicado em GitHub Pages
+   (`realnewsPT/real-news`, branch `main`), deploy automático a cada push.
+8. **Fase 6 — Conteúdo:** em curso — alargar continuamente o histórico de
+   votações e o feed de polémicas, sempre com fonte verificável.
 
 ## 9. Próximos passos imediatos
 
-- Confirmar nome do projeto/domínio.
-- Validar manualmente 5 exemplos de votação via openAR contra a página oficial
-  do parlamento, para confirmar fiabilidade do esquema antes de automatizar.
-- Confirmar lista de fontes de notícias RSS a incluir.
+- Ativar permissões de GitHub Actions (Settings → Actions → General →
+  Workflow permissions → Read and write) para o `weekly-update.yml` poder
+  abrir Pull Requests automaticamente.
+- Continuar a alargar o histórico de votações (idealmente cobrindo toda a
+  legislatura atual) e o feed de polémicas.
+- Validar o endpoint exato da openAR API antes de confiar em
+  `fetch-votacoes.mjs` para automação real — por agora, a recolha de
+  votações tem sido feita manualmente com verificação cruzada de várias
+  fontes noticiosas.
+- Considerar domínio próprio (o nome do projeto ficou definido como
+  **REAL-NEWS**, publicado em `realnewsPT/real-news` no GitHub).

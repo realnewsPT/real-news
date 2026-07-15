@@ -45,21 +45,30 @@ function renderVotacao(v) {
   const imagem = v.imagem_preview
     ? `<img src="${escapeHTML(v.imagem_preview)}" alt="" loading="lazy" class="vote-card__image" />`
     : "";
+  const simbolico = Boolean(v.voto_simbolico);
+  const chip = simbolico
+    ? `<p class="vote-card__simbolico-chip"><strong>⚠ Voto sem custo político.</strong> ${escapeHTML(v.motivo_simbolico || "O resultado já estava decidido independentemente do sentido de voto do Chega.")}</p>`
+    : "";
   return `
-    <article class="vote-card">
-      ${imagem}
-      <div>
-        <p class="vote-card__title">${escapeHTML(v.titulo)}</p>
-        <p class="vote-card__meta">${formatDate(v.data)} · ${escapeHTML(v.tipo || "")} · ${escapeHTML(v.fase || "")}</p>
-      </div>
-      <div style="display:flex; flex-direction:column; gap:0.4rem; align-items:flex-end;">
-        <span class="pill ${pillClass(v.voto_chega)}">Chega: ${escapeHTML(v.voto_chega)}</span>
-        <span class="result-tag ${resultTagClass(v.resultado)}">${escapeHTML(v.resultado)}</span>
-      </div>
-      ${v.notas ? `<p class="vote-card__notes">${escapeHTML(v.notas)}</p>` : ""}
-      ${renderVotosPorPartido(v.votos)}
-      <p class="vote-card__source">Fonte: <a href="${escapeHTML(v.fonte_oficial)}" target="_blank" rel="noopener">${escapeHTML(v.fonte_oficial)}</a></p>
-    </article>
+    <div class="vote-item">
+      <span class="vote-item__marker ${simbolico ? "vote-item__marker--simbolico" : ""}"></span>
+      <p class="vote-item__date">${formatDate(v.data)}</p>
+      <article class="vote-card ${simbolico ? "vote-card--simbolico" : ""}">
+        ${imagem}
+        <div>
+          <p class="vote-card__title">${escapeHTML(v.titulo)}</p>
+          <p class="vote-card__meta">${escapeHTML(v.tipo || "")} · ${escapeHTML(v.fase || "")}</p>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:0.4rem; align-items:flex-end;">
+          <span class="pill ${pillClass(v.voto_chega)}">Chega: ${escapeHTML(v.voto_chega)}</span>
+          <span class="result-tag ${resultTagClass(v.resultado)}">${escapeHTML(v.resultado)}</span>
+        </div>
+        ${chip}
+        ${v.notas ? `<p class="vote-card__notes">${escapeHTML(v.notas)}</p>` : ""}
+        ${renderVotosPorPartido(v.votos)}
+        <p class="vote-card__source">Fonte: <a href="${escapeHTML(v.fonte_oficial)}" target="_blank" rel="noopener">${escapeHTML(v.fonte_oficial)}</a></p>
+      </article>
+    </div>
   `;
 }
 
@@ -69,7 +78,7 @@ function render() {
   const resultado = selectResultado.value;
   const filtradas = votacoes
     .filter((v) => matches(v, texto, voto, resultado))
-    .sort((a, b) => (a.data < b.data ? 1 : -1));
+    .sort((a, b) => (a.data > b.data ? 1 : -1));
 
   list.innerHTML = filtradas.length
     ? filtradas.map(renderVotacao).join("")
