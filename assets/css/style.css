@@ -1,10 +1,11 @@
 :root {
-  --bg: #f6f4ef;
+  --bg: #f5f6f8;
   --bg-elevated: #ffffff;
-  --text: #201d1a;
-  --text-muted: #6b6459;
-  --border: #e3ddd0;
-  --accent: #8a2e2e;
+  --text: #1a1d23;
+  --text-muted: #5d6470;
+  --border: #dfe3e8;
+  --accent: #1d4ed8;
+  --accent-2: #0891a8;
   --accent-contrast: #ffffff;
   --ink: #1a1a1a;
   --favor: #2f7d4f;
@@ -12,11 +13,11 @@
   --abstencao: #a5811f;
   --aprovado: #2f7d4f;
   --rejeitado: #b23a3a;
-  --cat-1: #8a2e2e;
-  --cat-2: #4f6d5a;
-  --cat-3: #a5691f;
-  --cat-4: #3d5a80;
-  --cat-5: #6b4d8a;
+  --cat-1: #1d4ed8;
+  --cat-2: #0f7a5c;
+  --cat-3: #b5651d;
+  --cat-4: #6b4d8a;
+  --cat-5: #b23a3a;
   --radius: 8px;
   --max-width: 1080px;
   --font-serif: Georgia, "Iowan Old Style", "Palatino Linotype", "URW Palladio L", serif;
@@ -30,18 +31,19 @@
     --text: #ece8e0;
     --text-muted: #a39d90;
     --border: #35333a;
-    --accent: #d98080;
-    --accent-contrast: #1a1013;
+    --accent: #6d9bf5;
+    --accent-2: #4fd1e0;
+    --accent-contrast: #0d1420;
     --favor: #5fbf87;
     --contra: #e07070;
     --abstencao: #d9ab4d;
     --aprovado: #5fbf87;
     --rejeitado: #e07070;
-    --cat-1: #d98080;
-    --cat-2: #8fbf9f;
+    --cat-1: #6d9bf5;
+    --cat-2: #6fcf9f;
     --cat-3: #d9a15f;
-    --cat-4: #8fa9cf;
-    --cat-5: #b294d9;
+    --cat-4: #b294d9;
+    --cat-5: #e07070;
   }
 }
 
@@ -117,7 +119,8 @@ main {
 .hero {
   background: var(--bg-elevated);
   border: 1px solid var(--border);
-  border-top: 4px solid var(--accent);
+  border-top: 4px solid transparent;
+  border-image: linear-gradient(90deg, var(--accent), var(--accent-2)) 1;
   border-radius: var(--radius);
   padding: 1.8rem 1.6rem 1.5rem;
   margin-bottom: 1.75rem;

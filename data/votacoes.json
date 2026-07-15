@@ -1,5 +1,49 @@
 [
   {
+    "id": "2026-pl514-preco-referencia-combustiveis-gpl",
+    "data": "2026-04-10",
+    "titulo": "Fixa um Preço de Referência para combater a especulação e reduzir os preços dos combustíveis e do GPL (PCP)",
+    "tipo": "Projeto de Lei 514/XVII/1.ª (PCP)",
+    "fase": "Votação na generalidade",
+    "resultado": "Rejeitado",
+    "votos": {
+      "PSD": "Contra",
+      "CHEGA": "Contra",
+      "PS": "Contra",
+      "IL": "Abstenção",
+      "Livre": "A Favor",
+      "PCP": "A Favor",
+      "CDS-PP": "Contra",
+      "BE": "A Favor",
+      "PAN": "A Favor"
+    },
+    "voto_chega": "Contra",
+    "notas": "Grelha de votação oficial da Assembleia da República (votação na generalidade), na mesma sessão do projeto sobre o cabaz alimentar acima. O Chega votou contra fixar um preço de referência para travar a especulação nos combustíveis e no GPL.",
+    "fonte_oficial": "https://www.publico.pt/2026/04/10/politica/noticia/parlamento-chumba-propostas-aplicar-iva-zero-bens-alimentares-essenciais-2170792"
+  },
+  {
+    "id": "2026-pl513-controlo-precos-cabaz-alimentar",
+    "data": "2026-04-10",
+    "titulo": "Regime de Controlo de Preços sobre os Produtos do Cabaz Alimentar Essencial (PCP)",
+    "tipo": "Projeto de Lei 513/XVII/1.ª (PCP)",
+    "fase": "Votação na generalidade",
+    "resultado": "Rejeitado",
+    "votos": {
+      "PSD": "Contra",
+      "CHEGA": "Contra",
+      "PS": "Contra",
+      "IL": "Abstenção",
+      "Livre": "A Favor",
+      "PCP": "A Favor",
+      "CDS-PP": "Contra",
+      "BE": "A Favor",
+      "PAN": "A Favor"
+    },
+    "voto_chega": "Contra",
+    "notas": "Grelha de votação oficial da Assembleia da República (votação na generalidade). O Chega votou contra este regime de controlo de preços do cabaz alimentar essencial, tal como PSD, PS e CDS-PP.",
+    "fonte_oficial": "https://www.publico.pt/2026/04/10/politica/noticia/parlamento-chumba-propostas-aplicar-iva-zero-bens-alimentares-essenciais-2170792"
+  },
+  {
     "id": "2026-iva-zero-bens-essenciais-ps",
     "data": "2026-04-10",
     "titulo": "Proposta do PS para IVA zero (ou reduzido) em bens alimentares essenciais",
@@ -40,6 +84,24 @@
     "notas": "Votação por unanimidade. As propostas de alteração apresentadas pelo Chega, IL e BE não foram admitidas pelo Presidente da Assembleia da República.",
     "fonte_oficial": "https://cnnportugal.iol.pt/combustiveis/preco-dos-combustiveis/unanimidade-no-parlamento-aprovada-a-proposta-do-governo-para-baixar-limites-do-isp-ate-30-de-junho/20260408/69d6adf8d34edcee7c62d0a0",
     "imagem_preview": "https://img.iol.pt/preset/69974743d34e28842c80d3d7/og/cnn"
+  },
+  {
+    "id": "2026-pcp-preco-botija-gas",
+    "data": "2026-01-23",
+    "titulo": "Fixação do preço da botija de gás (13kg) em 20 euros (PCP)",
+    "tipo": "Projeto de Lei (PCP)",
+    "fase": "Votação na generalidade",
+    "resultado": "Rejeitado",
+    "votos": {
+      "CHEGA": "Contra",
+      "CDS-PP": "Contra",
+      "PSD": "Contra",
+      "IL": "Contra",
+      "PS": "Abstenção"
+    },
+    "voto_chega": "Contra",
+    "notas": "O Chega defendeu a redução do IVA do gás (de 23% para 6%) em vez da fixação de um preço máximo, criticando o \"controlo de preços\" proposto pelo PCP.",
+    "fonte_oficial": "https://eco.sapo.pt/2026/01/23/parlamento-rejeita-fixar-preco-do-gas-de-botija-mas-vai-debater-descida-do-iva/"
   },
   {
     "id": "2025-salario-minimo-recomendacoes-2026",
