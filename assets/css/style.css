@@ -166,13 +166,17 @@ img { max-width: 100%; display: block; }
   width: 2.1rem;
   height: 2.1rem;
   border-radius: 9px;
-  font-size: 1rem;
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
   color: #fff;
   background: linear-gradient(135deg, var(--accent), var(--accent-3));
   box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 45%, transparent);
 }
 
-.site-title span { color: var(--accent); }
+.site-title__word { white-space: nowrap; }
+.site-title__word span { color: var(--accent); }
 
 .site-nav {
   display: flex;
@@ -279,8 +283,15 @@ main {
 }
 
 .col-narrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.col-narrow > * {
+  width: 100%;
   max-width: 720px;
-  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .page-intro {
