@@ -78,7 +78,7 @@ function render() {
   const resultado = selectResultado.value;
   const filtradas = votacoes
     .filter((v) => matches(v, texto, voto, resultado))
-    .sort((a, b) => (a.data > b.data ? 1 : -1));
+    .sort((a, b) => (a.data < b.data ? 1 : -1));
 
   list.innerHTML = filtradas.length
     ? filtradas.map(renderVotacao).join("")

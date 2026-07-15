@@ -36,25 +36,27 @@ function categorySlot(categoria) {
 function renderPost(post, index) {
   const hasImage = Boolean(post.imagem_preview);
   const numero = String(index + 1).padStart(2, "0");
+  const cat = categorySlot(post.categoria);
   return `
     <article class="post-card">
       <a class="post-card__link" href="${escapeHTML(post.fonte?.url || "#")}" target="_blank" rel="noopener">
         <div class="post-card__image">
-          <span class="post-card__index">${numero}</span>
+          <span class="post-card__index" data-cat="${cat}">${numero}</span>
+          <span class="tag--overlay" data-cat="${cat}">${escapeHTML(post.categoria || "Outro")}</span>
           ${hasImage
             ? `<img src="${escapeHTML(post.imagem_preview)}" alt="" loading="lazy" />`
             : "Sem imagem de pré-visualização"}
         </div>
         <div class="post-card__body">
-          <span class="tag" data-cat="${categorySlot(post.categoria)}">${escapeHTML(post.categoria || "Outro")}</span>
           <h2 class="post-card__title">${escapeHTML(post.titulo)}</h2>
           <p class="post-card__summary">${escapeHTML(post.resumo)}</p>
           <div class="post-card__meta">
             <span>${escapeHTML(post.pessoa || "")}</span>
             <span>${formatDate(post.data_publicacao)}</span>
           </div>
-          <div class="post-card__meta">
-            <span>Fonte: ${escapeHTML(post.fonte?.nome || "")}</span>
+          <div class="post-card__footer">
+            <span class="post-card__meta">Fonte: ${escapeHTML(post.fonte?.nome || "")}</span>
+            <span class="post-card__arrow" aria-hidden="true">↗</span>
           </div>
         </div>
       </a>
