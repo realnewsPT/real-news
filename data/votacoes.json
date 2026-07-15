@@ -1,0 +1,47 @@
+[
+  {
+    "id": "2025-oe2026-votacao-final-global",
+    "data": "2025-11-27",
+    "titulo": "Orçamento do Estado para 2026 — votação final global",
+    "tipo": "Proposta de Lei (Governo)",
+    "fase": "Votação final global",
+    "resultado": "Aprovado",
+    "votos": {
+      "PS": "Abstenção",
+      "PSD": "A Favor",
+      "CHEGA": "Contra",
+      "IL": "A Favor",
+      "BE": "Contra",
+      "PCP": "Contra",
+      "Livre": "Contra",
+      "PAN": "Abstenção",
+      "CDS-PP": "A Favor"
+    },
+    "voto_chega": "Contra",
+    "notas": "O Chega votou contra a proposta, mas o Orçamento foi aprovado devido à abstenção do PS.",
+    "fonte_oficial": "https://www.rtp.pt/noticias/politica/chega-vota-contra-proposta-de-orcamento-do-estado-para-2026-na-votacao-final-global_n1700255"
+  },
+  {
+    "id": "2025-lei-estrangeiros-nova-versao",
+    "data": "2025-09-30",
+    "titulo": "Lei dos Estrangeiros — nova versão após chumbo do Tribunal Constitucional",
+    "tipo": "Proposta de Lei (Governo)",
+    "fase": "Votação final global",
+    "resultado": "Aprovado",
+    "votos": {
+      "PS": "Contra",
+      "PSD": "A Favor",
+      "CHEGA": "A Favor",
+      "IL": "A Favor",
+      "BE": "Contra",
+      "PCP": "Contra",
+      "Livre": "Contra",
+      "PAN": "Contra",
+      "CDS-PP": "A Favor",
+      "JPP": "Abstenção"
+    },
+    "voto_chega": "A Favor",
+    "notas": "O voto do Chega foi decisivo para desbloquear o impasse depois de o Tribunal Constitucional ter chumbado a versão original da lei.",
+    "fonte_oficial": "https://www.publico.pt/2025/09/30/politica/noticia/chega-deixa-cair-proibicao-acesso-imigrantes-apoios-viabiliza-versao-psd-2149041"
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "id": "2026-05-mentira-como-metodo",
+    "data_publicacao": "2026-05-22",
+    "titulo": "Levantamento reúne verificações de factos a Ventura desde 2019",
+    "categoria": "Fact-check",
+    "resumo": "Artigo de análise reúne o histórico de verificações de factos feitas a André Ventura desde 2019, mapeando um padrão recorrente de declarações desmentidas por verificadores.",
+    "pessoa": "André Ventura",
+    "imagem_preview": "",
+    "fonte": {
+      "nome": "Sociedade Civil",
+      "url": "https://sociedadecivil.pt/2026/05/22/ventura-fact-checks-mentira-como-metodo/"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "fact-check",
+      "análise"
+    ]
+  },
+  {
+    "id": "2026-entrevista-sic-cinco-falsidades",
+    "data_publicacao": "2026-01-20",
+    "titulo": "Polígrafo assinala cinco afirmações falsas numa entrevista de Ventura à SIC Notícias",
+    "categoria": "Fact-check",
+    "resumo": "Numa entrevista à SIC Notícias, o Polígrafo identificou cinco afirmações falsas ou imprecisas, incluindo uma comparação entre reclusos e bombeiros já anteriormente desmentida.",
+    "pessoa": "André Ventura",
+    "imagem_preview": "",
+    "fonte": {
+      "nome": "Polígrafo",
+      "url": "https://poligrafo.sapo.pt/fact-check/ventura-na-sic-noticias/"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "fact-check",
+      "entrevista",
+      "declarações"
+    ]
+  },
+  {
+    "id": "2025-04-compilacao-mentiras-poligrafo",
+    "data_publicacao": "2025-04-15",
+    "titulo": "Polígrafo compila mentiras e imprecisões de André Ventura não corrigidas",
+    "categoria": "Fact-check",
+    "resumo": "O Polígrafo reuniu declarações de André Ventura assinaladas como falsas ou imprecisas ao longo do tempo que não foram corrigidas nem retiradas pelo próprio após a verificação.",
+    "pessoa": "André Ventura",
+    "imagem_preview": "",
+    "fonte": {
+      "nome": "Polígrafo",
+      "url": "https://poligrafo.sapo.pt/politica/de-falso-em-falso-uma-dezena-de-mentiras-sinalizadas-pelo-poligrafo-que-andre-ventura-nao-apagou/"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "fact-check",
+      "declarações"
+    ]
+  },
+  {
+    "id": "2025-video-falso-protesto-imigrantes",
+    "data_publicacao": "2025-02-10",
+    "titulo": "Ventura partilha vídeo apresentado como sendo de protesto de imigrantes; imagens são de outro contexto",
+    "categoria": "Fact-check",
+    "resumo": "André Ventura partilhou um vídeo descrito como mostrando um polícia agredido num protesto de imigrantes; verificação concluiu que as imagens eram de um protesto distinto, sem relação com o contexto descrito.",
+    "pessoa": "André Ventura",
+    "imagem_preview": "",
+    "fonte": {
+      "nome": "ZAP / Lusa",
+      "url": "https://zap.aeiou.pt/policia-espancado-em-protesto-de-imigrantes-ventura-partilhou-mais-um-video-falso-749905"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "fact-check",
+      "redes sociais",
+      "imigração"
+    ]
+  },
+  {
+    "id": "2017-vs-hoje-critico-fake-news",
+    "data_publicacao": "2024-04-01",
+    "titulo": "Em 2017, Ventura alertava para o perigo das fake news; como deputado, acumulou mais de 100 declarações falsas",
+    "categoria": "Incoerência de discurso",
+    "resumo": "Em março de 2017, ainda como professor universitário e comentador, André Ventura descreveu as fake news como \"perniciosas\" e capazes de \"convencer em períodos de grande turbulência noticiosa\". O Polígrafo mostra que, desde que é deputado, lhe assinalou pelo menos 101 declarações falsas ou imprecisas.",
+    "pessoa": "André Ventura",
+    "imagem_preview": "",
+    "fonte": {
+      "nome": "Polígrafo",
+      "url": "https://poligrafo.sapo.pt/fact-check/andre-ventura-critico-das-fake-news-em-2017-mas-ja-mentiu-pelo-menos-101-vezes-desde-que-e-deputado/"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "fake news",
+      "incoerência",
+      "fact-check"
+    ]
+  }
+]

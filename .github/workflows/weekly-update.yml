@@ -1,0 +1,48 @@
+name: Atualização semanal
+
+on:
+  schedule:
+    # Segundas-feiras às 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Recolher candidatos a notícias
+        run: node scripts/fetch-noticias.mjs
+
+      - name: Recolher novas votações
+        run: node scripts/fetch-votacoes.mjs
+
+      - name: Validar e ordenar dados
+        run: node scripts/build-feeds.mjs
+
+      - name: Abrir Pull Request com as novidades
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: atualização semanal de dados"
+          title: "Atualização semanal — novos candidatos e votações"
+          body: |
+            PR automático gerado pelo workflow `weekly-update.yml`.
+
+            - `data/_candidatos.json` contém possíveis novas entradas para o feed
+              de polémicas — **requer revisão humana** antes de qualquer entrada
+              passar para `data/posts.json`.
+            - `data/votacoes.json` pode ter sido atualizado automaticamente com
+              novas votações de fonte oficial — validar por amostragem antes do merge.
+          branch: auto/weekly-update
+          delete-branch: true

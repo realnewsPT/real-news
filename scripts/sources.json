@@ -1,0 +1,12 @@
+{
+  "rss_noticias": [
+    { "nome": "Público", "url": "https://www.publico.pt/rss" },
+    { "nome": "Expresso", "url": "https://expresso.pt/rss" },
+    { "nome": "Observador", "url": "https://observador.pt/feed/" },
+    { "nome": "RTP Notícias", "url": "https://www.rtp.pt/noticias/rss" },
+    { "nome": "Polígrafo - Fact-checks", "url": "https://poligrafo.sapo.pt/fact-checks/feed/" }
+  ],
+  "keywords": ["chega", "andré ventura", "ventura"],
+  "votacoes_api_base": "https://api.openar.pt/api/v1/iniciativas/",
+  "notas": "Confirmar o endpoint exato da openAR API (pode mudar) e validar sempre o resultado contra parlamento.pt/Cidadania/Paginas/DadosAbertos.aspx antes de publicar."
+}
