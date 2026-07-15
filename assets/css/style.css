@@ -1,20 +1,20 @@
 :root {
   /* Escuro é o visual assumido do site — moderno, contrastado, com orbes de gradiente */
-  --bg: #0d0e14;
+  --bg: #0b0c12;
   --bg-elevated: #161824;
-  --text: #f1f0f5;
-  --text-muted: #9b9aab;
-  --border: #2a2b3d;
-  --accent: #5b7cfa;
-  --accent-2: #22d3c5;
-  --accent-3: #d946a8;
+  --text: #f5f4f9;
+  --text-muted: #b4b3c6;
+  --border: #2f303f;
+  --accent: #6f8bff;
+  --accent-2: #2ee0cd;
+  --accent-3: #ea56b8;
   --accent-contrast: #0a0b10;
   --favor: #4fd18c;
   --contra: #f0687a;
   --abstencao: #f0b94d;
   --aprovado: #4fd18c;
   --rejeitado: #f0687a;
-  --cat-1: #5b7cfa;
+  --cat-1: #6f8bff;
   --cat-2: #4fd18c;
   --cat-3: #f0b94d;
   --cat-4: #b17ef0;
@@ -166,9 +166,7 @@ img { max-width: 100%; display: block; }
   width: 2.1rem;
   height: 2.1rem;
   border-radius: 9px;
-  font-family: var(--font-sans);
-  font-size: 0.85rem;
-  font-weight: 800;
+  font-size: 1rem;
   color: #fff;
   background: linear-gradient(135deg, var(--accent), var(--accent-3));
   box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 45%, transparent);
@@ -231,7 +229,7 @@ main {
   font-size: 0.78rem;
   font-weight: 700;
   color: var(--accent-2);
-  background: color-mix(in srgb, var(--accent-2) 14%, transparent);
+  background: color-mix(in srgb, var(--accent-2) 20%, transparent);
   border: 1px solid color-mix(in srgb, var(--accent-2) 35%, transparent);
   padding: 0.35rem 0.8rem;
   border-radius: 999px;
@@ -278,6 +276,11 @@ main {
   margin: 0;
   border-top: 1px solid var(--border);
   padding-top: 0.9rem;
+}
+
+.col-narrow {
+  max-width: 720px;
+  margin: 0 auto;
 }
 
 .page-intro {
@@ -601,6 +604,22 @@ main {
 
 .vote-card__simbolico-chip strong { color: var(--abstencao); }
 
+.vote-card__decisivo-chip {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.84rem;
+  color: var(--contra);
+  background: color-mix(in srgb, var(--contra) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--contra) 35%, transparent);
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+  margin-top: 0.2rem;
+}
+
+.vote-card__decisivo-chip strong { color: var(--contra); }
+
 .vote-card__image {
   grid-column: 1 / -1;
   width: 100%;
@@ -699,7 +718,7 @@ main {
   letter-spacing: 0.03em;
   padding: 0.25rem 0.65rem;
   border-radius: 999px;
-  background: color-mix(in srgb, var(--accent-2) 16%, transparent);
+  background: color-mix(in srgb, var(--accent-2) 22%, transparent);
   color: var(--accent-2);
   border: 1px solid color-mix(in srgb, var(--accent-2) 35%, transparent);
   margin-bottom: 0.7rem;
@@ -714,10 +733,6 @@ main {
 
 .disclaimer--opiniao {
   border-left-color: var(--accent-2);
-}
-
-.prose--opiniao {
-  max-width: 68ch;
 }
 
 .prose--opiniao p {

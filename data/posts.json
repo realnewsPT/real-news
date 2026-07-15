@@ -20,25 +20,6 @@
     ]
   },
   {
-    "id": "2026-06-pacote-laboral-chumbado",
-    "data_publicacao": "2026-06-19",
-    "titulo": "Chega junta-se à esquerda e chumba a reforma laboral do próprio Governo que apoia noutras matérias",
-    "categoria": "Voto sem custo político",
-    "resumo": "O Chega tinha colocado como condição para aprovar o pacote laboral do Governo a redução da idade da reforma. Sem acordo com o Executivo, o partido votou contra ao lado de todos os partidos à sua esquerda, chumbando uma reforma que o próprio Governo que apoia noutras votações queria aprovar — e apanhando o Executivo de surpresa.",
-    "pessoa": "Chega (bancada parlamentar)",
-    "imagem_preview": "https://cdn-images.rtp.pt/icm/noticias/images/12/12a2a365de37d9ade976da89610e8ec5?w=860&q=90&rect=0,138,1500,822&auto=format",
-    "fonte": {
-      "nome": "RTP",
-      "url": "https://www.rtp.pt/noticias/economia/chega-vota-contra-proposta-do-governo-do-pacote-laboral-e-reforma-e-chumbada_e1748042"
-    },
-    "fontes_adicionais": [],
-    "tags": [
-      "votações",
-      "reforma laboral",
-      "governo"
-    ]
-  },
-  {
     "id": "2026-06-bancada-surpreendida-laboral",
     "data_publicacao": "2026-06-19",
     "titulo": "Até a própria bancada do Chega ficou surpreendida com o voto contra o pacote laboral",
@@ -55,6 +36,25 @@
       "votações",
       "reforma laboral",
       "incoerência"
+    ]
+  },
+  {
+    "id": "2026-06-pacote-laboral-chumbado",
+    "data_publicacao": "2026-06-19",
+    "titulo": "Chega junta-se à esquerda e chumba a reforma laboral do próprio Governo que apoia noutras matérias",
+    "categoria": "Voto sem custo político",
+    "resumo": "O Chega tinha colocado como condição para aprovar o pacote laboral do Governo a redução da idade da reforma. Sem acordo com o Executivo, o partido votou contra ao lado de todos os partidos à sua esquerda, chumbando uma reforma que o próprio Governo que apoia noutras votações queria aprovar — e apanhando o Executivo de surpresa.",
+    "pessoa": "Chega (bancada parlamentar)",
+    "imagem_preview": "https://cdn-images.rtp.pt/icm/noticias/images/12/12a2a365de37d9ade976da89610e8ec5?w=860&q=90&rect=0,138,1500,822&auto=format",
+    "fonte": {
+      "nome": "RTP",
+      "url": "https://www.rtp.pt/noticias/economia/chega-vota-contra-proposta-do-governo-do-pacote-laboral-e-reforma-e-chumbada_e1748042"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "votações",
+      "reforma laboral",
+      "governo"
     ]
   },
   {

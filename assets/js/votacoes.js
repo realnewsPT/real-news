@@ -46,8 +46,12 @@ function renderVotacao(v) {
     ? `<img src="${escapeHTML(v.imagem_preview)}" alt="" loading="lazy" class="vote-card__image" />`
     : "";
   const simbolico = Boolean(v.voto_simbolico);
-  const chip = simbolico
+  const decisivo = Boolean(v.voto_decisivo);
+  const chipSimbolico = simbolico
     ? `<p class="vote-card__simbolico-chip"><strong>⚠ Voto sem custo político.</strong> ${escapeHTML(v.motivo_simbolico || "O resultado já estava decidido independentemente do sentido de voto do Chega.")}</p>`
+    : "";
+  const chipDecisivo = decisivo
+    ? `<p class="vote-card__decisivo-chip"><strong>🎯 Voto decisivo.</strong> ${escapeHTML(v.motivo_decisivo || "O voto do Chega foi determinante para este resultado.")}</p>`
     : "";
   return `
     <div class="vote-item">
@@ -63,7 +67,8 @@ function renderVotacao(v) {
           <span class="pill ${pillClass(v.voto_chega)}">Chega: ${escapeHTML(v.voto_chega)}</span>
           <span class="result-tag ${resultTagClass(v.resultado)}">${escapeHTML(v.resultado)}</span>
         </div>
-        ${chip}
+        ${chipDecisivo}
+        ${chipSimbolico}
         ${v.notas ? `<p class="vote-card__notes">${escapeHTML(v.notas)}</p>` : ""}
         ${renderVotosPorPartido(v.votos)}
         <p class="vote-card__source">Fonte: <a href="${escapeHTML(v.fonte_oficial)}" target="_blank" rel="noopener">${escapeHTML(v.fonte_oficial)}</a></p>
@@ -78,7 +83,7 @@ function render() {
   const resultado = selectResultado.value;
   const filtradas = votacoes
     .filter((v) => matches(v, texto, voto, resultado))
-    .sort((a, b) => (a.data < b.data ? 1 : -1));
+    .sort((a, b) => b.data.localeCompare(a.data));
 
   list.innerHTML = filtradas.length
     ? filtradas.map(renderVotacao).join("")
