@@ -1,5 +1,70 @@
 [
   {
+    "id": "2026-iva-zero-bens-essenciais-ps",
+    "data": "2026-04-10",
+    "titulo": "Proposta do PS para IVA zero (ou reduzido) em bens alimentares essenciais",
+    "tipo": "Projeto de Resolução",
+    "fase": "Votação final global",
+    "resultado": "Rejeitado",
+    "votos": {
+      "PS": "A Favor",
+      "PSD": "Contra",
+      "CHEGA": "Contra",
+      "IL": "Abstenção",
+      "CDS-PP": "Contra"
+    },
+    "voto_chega": "Contra",
+    "notas": "Todas as propostas de IVA zero em bens alimentares essenciais apresentadas nesta sessão (de PS, PCP, PAN, Livre, BE e do próprio Chega) foram rejeitadas — em parte devido à \"norma-travão\" constitucional para iniciativas que impliquem perda de receita sem o aval do Governo. Em contraste com o voto a favor do Chega numa medida semelhante em 2023 (ver acima), desta vez o partido votou contra a proposta do PS.",
+    "fonte_oficial": "https://sapo.pt/artigo/parlamento-rejeita-todas-as-propostas-para-iva-zero-nos-bens-essenciais-69d931f12599cb6fa3db8ee6",
+    "imagem_preview": "https://mb.web.sapo.io/b633706e8318f5ad2e3c8613a7e6deb67d5ca20b.jpg"
+  },
+  {
+    "id": "2026-isp-reducao-limites-combustiveis",
+    "data": "2026-04-08",
+    "titulo": "Redução temporária dos limites mínimos do ISP sobre combustíveis até 30 de junho",
+    "tipo": "Proposta de Lei (Governo)",
+    "fase": "Votação final global",
+    "resultado": "Aprovado",
+    "votos": {
+      "PS": "A Favor",
+      "PSD": "A Favor",
+      "CHEGA": "A Favor",
+      "IL": "A Favor",
+      "BE": "A Favor",
+      "PCP": "A Favor",
+      "Livre": "A Favor",
+      "PAN": "A Favor",
+      "CDS-PP": "A Favor"
+    },
+    "voto_chega": "A Favor",
+    "notas": "Votação por unanimidade. As propostas de alteração apresentadas pelo Chega, IL e BE não foram admitidas pelo Presidente da Assembleia da República.",
+    "fonte_oficial": "https://cnnportugal.iol.pt/combustiveis/preco-dos-combustiveis/unanimidade-no-parlamento-aprovada-a-proposta-do-governo-para-baixar-limites-do-isp-ate-30-de-junho/20260408/69d6adf8d34edcee7c62d0a0",
+    "imagem_preview": "https://img.iol.pt/preset/69974743d34e28842c80d3d7/og/cnn"
+  },
+  {
+    "id": "2025-salario-minimo-recomendacoes-2026",
+    "data": "2025-12-09",
+    "titulo": "Recomendações ao Governo para aumentar o salário mínimo nacional em 2026 (PCP, BE, Livre, PAN)",
+    "tipo": "Projeto de Resolução",
+    "fase": "Votação final global",
+    "resultado": "Rejeitado",
+    "votos": {
+      "PS": "Abstenção",
+      "PSD": "Contra",
+      "CHEGA": "A Favor",
+      "IL": "Contra",
+      "BE": "A Favor",
+      "PCP": "A Favor",
+      "Livre": "A Favor",
+      "PAN": "A Favor",
+      "CDS-PP": "Contra"
+    },
+    "voto_chega": "A Favor",
+    "notas": "O Chega votou a favor das quatro propostas de subida do salário mínimo em 2026 apresentadas pela esquerda, mas foram rejeitadas pelos votos contra de PSD, CDS-PP e IL, com o PS a abster-se.",
+    "fonte_oficial": "https://eco.sapo.pt/2025/12/10/pcp-livre-be-e-pan-pedem-subida-do-salario-minimo-em-2026-psd-defende-aumento-progressivo/",
+    "imagem_preview": "https://eco.imgix.net/uploads/2024/12/cropped-43827339-scaled-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200"
+  },
+  {
     "id": "2025-oe2026-votacao-final-global",
     "data": "2025-11-27",
     "titulo": "Orçamento do Estado para 2026 — votação final global",
@@ -43,5 +108,27 @@
     "voto_chega": "A Favor",
     "notas": "O voto do Chega foi decisivo para desbloquear o impasse depois de o Tribunal Constitucional ter chumbado a versão original da lei.",
     "fonte_oficial": "https://www.publico.pt/2025/09/30/politica/noticia/chega-deixa-cair-proibicao-acesso-imigrantes-apoios-viabiliza-versao-psd-2149041"
+  },
+  {
+    "id": "2023-iva-zero-cabaz-alimentar",
+    "data": "2023-04-06",
+    "titulo": "IVA zero num cabaz de mais de 40 bens alimentares essenciais, por seis meses",
+    "tipo": "Proposta de Lei (Governo)",
+    "fase": "Votação final global",
+    "resultado": "Aprovado",
+    "votos": {
+      "PS": "A Favor",
+      "PSD": "Abstenção",
+      "CHEGA": "A Favor",
+      "IL": "A Favor",
+      "BE": "Abstenção",
+      "PCP": "Abstenção",
+      "Livre": "Abstenção",
+      "CDS-PP": "Abstenção"
+    },
+    "voto_chega": "A Favor",
+    "notas": "",
+    "fonte_oficial": "https://eco.sapo.pt/2023/04/06/parlamento-aprova-iva-zero-em-cabaz-de-alimentos-essenciais-com-votos-do-ps-chega-e-il/",
+    "imagem_preview": "https://eco.imgix.net/uploads/2023/03/cropped-debate08.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200"
   }
 ]

@@ -25,6 +25,14 @@ function matches(post, texto, categoria) {
   return haystack.includes(normalize(texto));
 }
 
+const CATEGORY_SLOTS = new Map();
+function categorySlot(categoria) {
+  if (!CATEGORY_SLOTS.has(categoria)) {
+    CATEGORY_SLOTS.set(categoria, (CATEGORY_SLOTS.size % 5) + 1);
+  }
+  return CATEGORY_SLOTS.get(categoria);
+}
+
 function renderPost(post) {
   const hasImage = Boolean(post.imagem_preview);
   return `
@@ -36,7 +44,7 @@ function renderPost(post) {
             : "Sem imagem de pré-visualização"}
         </div>
         <div class="post-card__body">
-          <span class="badge">${escapeHTML(post.categoria || "Outro")}</span>
+          <span class="badge" data-cat="${categorySlot(post.categoria)}">${escapeHTML(post.categoria || "Outro")}</span>
           <h2 class="post-card__title">${escapeHTML(post.titulo)}</h2>
           <p class="post-card__summary">${escapeHTML(post.resumo)}</p>
           <div class="post-card__meta">

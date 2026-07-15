@@ -42,8 +42,12 @@ function renderVotosPorPartido(votos) {
 }
 
 function renderVotacao(v) {
+  const imagem = v.imagem_preview
+    ? `<img src="${escapeHTML(v.imagem_preview)}" alt="" loading="lazy" class="vote-card__image" />`
+    : "";
   return `
     <article class="vote-card">
+      ${imagem}
       <div>
         <p class="vote-card__title">${escapeHTML(v.titulo)}</p>
         <p class="vote-card__meta">${formatDate(v.data)} · ${escapeHTML(v.tipo || "")} · ${escapeHTML(v.fase || "")}</p>
