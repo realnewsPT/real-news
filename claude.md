@@ -129,8 +129,12 @@ argumentativo — é o único sítio do site onde isso é aceitável. Mesmo assi
 - Não hospedar imagens de terceiros localmente.
 - Não publicar afirmações sem fonte citada.
 - Não fazer commit direto do workflow automático em `main` — sempre via PR.
-- Não usar cores/identidade visual do próprio partido (evitar parecer material
-  oficial do CHEGA).
+- ~~Não usar cores/identidade visual do próprio partido~~ — **revogado
+  2026-07-20 por pedido explícito do utilizador**: a paleta (`--accent`,
+  `--accent-2`, `--accent-3` em `assets/css/style.css`) foi atualizada para
+  tons vermelho-alaranjado/índigo próximos do logotipo do Chega,
+  propositadamente. Não reverter para a paleta azul/petróleo original sem
+  confirmar com o utilizador.
 
 ## Estado atual
 
