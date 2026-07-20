@@ -1,5 +1,53 @@
 [
   {
+    "id": "2026-trafico-humano-vitimas-protecao",
+    "data": "2026-07-17",
+    "titulo": "Proteção de vítimas de tráfico de seres humanos: fim da punição por crimes cometidos sob coação e criação de coordenador nacional antitráfico",
+    "tipo": "Proposta de Lei (Governo, com alterações de Livre e PSD)",
+    "fase": "Votação final global",
+    "resultado": "Aprovado",
+    "votos": {
+      "PSD": "A Favor",
+      "PS": "A Favor",
+      "IL": "A Favor",
+      "CDS-PP": "A Favor",
+      "Livre": "A Favor",
+      "PCP": "A Favor",
+      "BE": "A Favor",
+      "PAN": "A Favor",
+      "CHEGA": "Abstenção"
+    },
+    "voto_chega": "Abstenção",
+    "voto_simbolico": false,
+    "notas": "Diploma que transpõe uma diretiva europeia, elimina a punição de vítimas de tráfico humano por crimes cometidos sob coação e cria a figura do coordenador nacional antitráfico. Aprovado com os votos a favor de todos os partidos à exceção do Chega, que se absteve — um deputado do partido justificou a abstenção alegando falta de \"compromisso de meios humanos, materiais ou tecnológicos\" e de um plano de fiscalização.",
+    "fonte_oficial": "https://observador.pt/2026/07/17/parlamento-aprova-protecao-de-vitimas-de-trafico-humano-crimes-cometidos-sob-coacao-deixam-de-ser-punidos/"
+  },
+  {
+    "id": "2026-perda-nacionalidade-confirmacao-decreto",
+    "data": "2026-07-03",
+    "titulo": "Confirmação do decreto que cria a pena acessória de perda de nacionalidade (2/3 dos deputados)",
+    "tipo": "Decreto (Chega, PSD e CDS-PP na origem) — voto de confirmação",
+    "fase": "Votação de confirmação (maioria de dois terços)",
+    "resultado": "Rejeitado",
+    "votos": {
+      "CHEGA": "A Favor",
+      "CDS-PP": "A Favor",
+      "PSD": "Contra",
+      "PS": "Contra",
+      "IL": "Contra",
+      "Livre": "Contra",
+      "PCP": "Contra",
+      "BE": "Contra",
+      "PAN": "Contra",
+      "JPP": "Contra"
+    },
+    "voto_chega": "A Favor",
+    "voto_simbolico": true,
+    "motivo_simbolico": "O decreto exigia maioria de dois terços dos deputados presentes para ser confirmado. Depois de o Tribunal Constitucional o ter chumbado por unanimidade em maio de 2026 por violar os princípios da igualdade e da proporcionalidade, o PSD recusou-se a manter o apoio sem alterações que reduzissem os crimes abrangidos — sem o PSD, Chega e CDS-PP (56 votos) nunca poderiam sozinhos chegar aos dois terços dos 208 deputados votantes (precisariam de cerca de 139). O resultado estava, portanto, decidido antes da votação.",
+    "notas": "Decreto originalmente aprovado com os votos de PSD, CDS-PP e Chega, chumbado pelo Tribunal Constitucional por unanimidade em maio de 2026. O Chega recusou as alterações propostas pelo PSD (que limitavam a pena aos crimes de Estado e terrorismo), com Ventura a dizer que ceder à esquerda seria \"acabar por ficar com a esquerda\". Sem o PSD, a proposta ficou muito aquém dos dois terços necessários: 152 votos contra, 56 a favor.",
+    "fonte_oficial": "https://www.noticiasaominuto.com/politica/3015872/ampla-maioria-chumba-perda-da-nacionalidade-defendida-pelo-chega"
+  },
+  {
     "id": "2026-reducao-idade-reforma-chega",
     "data": "2026-07-03",
     "titulo": "Redução da idade da reforma para os 65 anos ou 40 anos de descontos (projeto do Chega)",

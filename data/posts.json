@@ -1,5 +1,81 @@
 [
   {
+    "id": "2026-07-trafico-humano-abstencao",
+    "data_publicacao": "2026-07-17",
+    "titulo": "Único partido a não votar a favor: Chega abstém-se na lei que protege vítimas de tráfico de seres humanos",
+    "categoria": "Incoerência de voto",
+    "resumo": "O Parlamento aprovou, com os votos a favor de todos os outros partidos, uma lei que acaba com a punição de vítimas de tráfico de seres humanos por crimes cometidos sob coação e cria a figura de coordenador nacional antitráfico, transpondo uma diretiva europeia. O Chega — partido que faz da segurança e do combate ao crime uma bandeira central — foi o único a não se juntar ao consenso, abstendo-se com a justificação de que a proposta não previa \"compromisso de meios humanos, materiais ou tecnológicos\" nem um plano de fiscalização.",
+    "pessoa": "Chega (bancada parlamentar)",
+    "imagem_preview": "",
+    "fonte": {
+      "nome": "Observador",
+      "url": "https://observador.pt/2026/07/17/parlamento-aprova-protecao-de-vitimas-de-trafico-humano-crimes-cometidos-sob-coacao-deixam-de-ser-punidos/"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "votações",
+      "incoerência",
+      "tráfico humano"
+    ]
+  },
+  {
+    "id": "2026-07-pedro-frazao-condenado-difamacao",
+    "data_publicacao": "2026-07-15",
+    "titulo": "Deputado do Chega Pedro Frazão condenado a pagar 4 mil euros por difamar o atual coordenador do Bloco de Esquerda",
+    "categoria": "Processos judiciais",
+    "resumo": "O Tribunal Criminal de Lisboa condenou o deputado do Chega Pedro Frazão a uma multa de 2.000 euros e a uma indemnização de igual valor por difamar, em 2021, José Manuel Pureza, hoje coordenador do Bloco de Esquerda. Frazão tinha escrito nas redes sociais \"Já não há Pureza no Bloco de Asquereza? #MeToo\", insinuando que Pureza teria cometido um crime sexual contra uma jovem simpatizante do partido. O Ministério Público considerou que o deputado \"tinha perfeita consciência\" de que a insinuação era falsa. A defesa anunciou recurso da decisão.",
+    "pessoa": "Pedro Frazão / Chega",
+    "imagem_preview": "",
+    "fonte": {
+      "nome": "Público",
+      "url": "https://www.publico.pt/2026/07/15/politica/noticia/pedro-frazao-condenado-difamar-coordenador-bloco-esquerda-jose-manuel-pureza-2181788"
+    },
+    "fontes_adicionais": [
+      "https://www.jn.pt/justica/artigo/pedro-frazao-condenado-a-pagar-quatro-mil-euros-por-difamar-jose-manuel-pureza/18106389"
+    ],
+    "tags": [
+      "processos judiciais",
+      "difamação"
+    ]
+  },
+  {
+    "id": "2026-07-il-queixa-ventura-filmagens",
+    "data_publicacao": "2026-07-14",
+    "titulo": "Presidente da Assembleia da República dá seguimento a queixa da IL contra Ventura por entrar e filmar nos gabinetes do partido",
+    "categoria": "Processos judiciais",
+    "resumo": "José Pedro Aguiar-Branco, presidente da Assembleia da República, deu seguimento a uma queixa apresentada pela Iniciativa Liberal contra André Ventura, depois de o líder do Chega ter entrado e filmado nas salas de trabalho do grupo parlamentar da IL sem autorização.",
+    "pessoa": "André Ventura",
+    "imagem_preview": "",
+    "fonte": {
+      "nome": "Observador",
+      "url": "https://observador.pt/2026/07/14/aguiar-branco-da-sequencia-a-queixa-da-il-contra-ventura-por-entrar-e-filmar-nas-suas-salas/"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "processos judiciais",
+      "conduta parlamentar"
+    ]
+  },
+  {
+    "id": "2026-07-perda-nacionalidade-chumbada-psd",
+    "data_publicacao": "2026-07-03",
+    "titulo": "\"Princípio de campanha\" do Chega cai no Parlamento depois de o PSD recusar manter o apoio",
+    "categoria": "Incoerência de voto",
+    "resumo": "O decreto que criava a pena acessória de perda de nacionalidade — chumbado por unanimidade pelo Tribunal Constitucional em maio de 2026 por violar os princípios da igualdade e da proporcionalidade — voltou ao Parlamento para confirmação, precisando de dois terços dos votos. O Chega recusou as alterações propostas pelo PSD para restringir a medida a crimes de Estado e terrorismo, e Ventura acusou quem cedesse de \"acabar por ficar com a esquerda\". Sem o PSD, Chega e CDS-PP (56 votos) ficaram muito aquém da maioria de dois terços exigida: a confirmação foi chumbada por 152 votos contra.",
+    "pessoa": "Chega (bancada parlamentar)",
+    "imagem_preview": "",
+    "fonte": {
+      "nome": "Notícias ao Minuto",
+      "url": "https://www.noticiasaominuto.com/politica/3015872/ampla-maioria-chumba-perda-da-nacionalidade-defendida-pelo-chega"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "votações",
+      "incoerência",
+      "nacionalidade"
+    ]
+  },
+  {
     "id": "2026-07-voto-sem-custo-subvencoes-reforma",
     "data_publicacao": "2026-07-03",
     "titulo": "Mesma sessão, dois pesos: Chega vota a favor do fim das subvenções vitalícias (chumbado) e propõe baixar a idade da reforma (chumbado)",
@@ -17,6 +93,27 @@
       "votações",
       "reforma",
       "pensões"
+    ]
+  },
+  {
+    "id": "2026-07-rita-matias-codigo-conduta",
+    "data_publicacao": "2026-07-01",
+    "titulo": "Comissão de Transparência conclui que Rita Matias violou duas vezes o código de conduta dos deputados",
+    "categoria": "Conduta parlamentar",
+    "resumo": "A Comissão de Transparência do Parlamento concluiu que a deputada do Chega Rita Matias violou o código de conduta em dois processos distintos: chamou \"assassina\" à deputada do PS Isabel Moreira, associando-a à morte de 18 mil bebés, e usou de forma abusiva o cartão de \"livre-trânsito\" de deputada perante agentes da PSP para forçar a entrada na Faculdade de Letras da Universidade de Lisboa, em março de 2026. As duas admoestações foram aprovadas por ampla maioria — com voto contra do Chega. A repreensão pelo caso da faculdade estende-se também à deputada Madalena Cordeiro.",
+    "pessoa": "Rita Matias / Chega",
+    "imagem_preview": "",
+    "fonte": {
+      "nome": "Observador",
+      "url": "https://observador.pt/2026/07/01/parlamento-admoesta-rita-matias-por-chamar-assassina-a-isabel-moreira-e-por-uso-abusivo-do-cartao-de-deputada-na-faculdade-de-letras/"
+    },
+    "fontes_adicionais": [
+      "https://www.rtp.pt/noticias/politica/parlamento-conclui-que-rita-matias-do-chega-violou-codigo-de-conduta_n1750696"
+    ],
+    "tags": [
+      "conduta parlamentar",
+      "código de conduta",
+      "insultos"
     ]
   },
   {
@@ -195,6 +292,47 @@
     ]
   },
   {
+    "id": "2025-10-clovis-abreu-queixa-ventura",
+    "data_publicacao": "2025-10-07",
+    "titulo": "Homem absolvido da morte de um agente da PSP apresenta queixa-crime contra Ventura por difamação e incitamento ao ódio",
+    "categoria": "Processos judiciais",
+    "resumo": "Clóvis Abreu, de etnia cigana, foi absolvido do homicídio do agente da PSP Fábio Guerra (morto em 2022 à porta de uma discoteca em Lisboa, crime pelo qual dois outros arguidos foram condenados a 20 e 17 anos de prisão). Apresentou queixa-crime contra André Ventura por difamação agravada, discriminação e incitamento ao ódio, depois de o líder do Chega ter publicado um vídeo no TikTok a dizer que Abreu tinha \"assassinado um polícia à pancada\" — apesar de ter sido absolvido, e não condenado, desse crime.",
+    "pessoa": "André Ventura",
+    "imagem_preview": "",
+    "fonte": {
+      "nome": "Público",
+      "url": "https://www.publico.pt/2025/10/07/sociedade/noticia/absolvido-morte-policia-clovis-abreu-quer-ventura-condenado-incitamento-odio-2149901"
+    },
+    "fontes_adicionais": [
+      "https://www.noticiasaominuto.com/pais/2866017/absolvido-de-homicidio-de-psp-apresenta-queixa-crime-contra-andre-ventura",
+      "https://rr.pt/noticia/pais/2025/10/07/clovis-abreu-apresenta-queixa-crime-contra-andre-ventura-por-difamacao-e-incitamento-ao-odio/442848/"
+    ],
+    "tags": [
+      "processos judiciais",
+      "difamação",
+      "discriminação"
+    ]
+  },
+  {
+    "id": "2025-05-mapa-deputados-justica-poligrafo",
+    "data_publicacao": "2025-05-20",
+    "titulo": "Dos 58 deputados eleitos pelo Chega em 2025, mais de dois terços já se cruzaram com a Justiça ou estiveram envolvidos em polémicas",
+    "categoria": "Processos judiciais",
+    "resumo": "Levantamento da CNN Portugal identificou que 23 dos 58 deputados eleitos pelo Chega nas legislativas de 2025 já tinham, à data, processos judiciais em curso, condenações ou nomes envolvidos em polémicas públicas — de casos de difamação a acusações criminais. O artigo compila caso a caso, com fonte documental para cada situação.",
+    "pessoa": "Chega (bancada parlamentar)",
+    "imagem_preview": "",
+    "fonte": {
+      "nome": "CNN Portugal",
+      "url": "https://cnnportugal.iol.pt/chega/deputados/dos-58-deputados-eleitos-pelo-chega-25-ja-se-cruzaram-com-a-justica-ou-estiveram-envolvidos-em-polemicas/20250520/6827832bd34ef72ee4461310"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "processos judiciais",
+      "análise",
+      "deputados"
+    ]
+  },
+  {
     "id": "2025-04-compilacao-mentiras-poligrafo",
     "data_publicacao": "2025-04-15",
     "titulo": "Polígrafo compila mentiras e imprecisões de André Ventura não corrigidas",
@@ -229,6 +367,26 @@
       "fact-check",
       "redes sociais",
       "imigração"
+    ]
+  },
+  {
+    "id": "2025-02-nuno-pardal-prostituicao-menores",
+    "data_publicacao": "2025-02-06",
+    "titulo": "Deputado municipal do Chega em Lisboa acusado pelo Ministério Público de prostituição de menores, renuncia ao mandato",
+    "categoria": "Processos judiciais",
+    "resumo": "Nuno Pardal, deputado do Chega na Assembleia Municipal de Lisboa, foi acusado pelo Ministério Público de dois crimes de prostituição de menores, por ter tido, segundo a acusação, contacto sexual com um rapaz de 15 anos a troco de 20 euros, conhecido através de uma aplicação de encontros. Pardal não negou os factos, mas alegou desconhecer a idade do menor, e renunciou ao mandato após a acusação se tornar pública.",
+    "pessoa": "Nuno Pardal / Chega",
+    "imagem_preview": "",
+    "fonte": {
+      "nome": "RTP",
+      "url": "https://www.rtp.pt/noticias/pais/deputado-municipal-do-chega-acusado-pelo-ministerio-publico-de-prostituicao-de-menores_a1632555"
+    },
+    "fontes_adicionais": [
+      "https://pt.euronews.com/my-europe/2025/02/06/deputado-municipal-do-chega-renuncia-ao-mandato-depois-de-ser-acusado-de-prostituicao-de-m"
+    ],
+    "tags": [
+      "processos judiciais",
+      "deputados"
     ]
   },
   {
