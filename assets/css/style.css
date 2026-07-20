@@ -150,8 +150,9 @@ img { max-width: 100%; display: block; }
 
 .site-title {
   display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.1rem 0.7rem;
   font-family: var(--font-serif);
   font-size: 1.2rem;
   font-weight: 700;
@@ -159,24 +160,22 @@ img { max-width: 100%; display: block; }
   color: var(--text);
 }
 
-.site-title__mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.1rem;
-  height: 2.1rem;
-  border-radius: 9px;
-  font-family: var(--font-sans);
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  color: #fff;
-  background: linear-gradient(135deg, var(--accent), var(--accent-3));
-  box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 45%, transparent);
-}
-
 .site-title__word { white-space: nowrap; }
 .site-title__word span { color: var(--accent); }
+
+.site-title__tagline {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-transform: lowercase;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .site-title__tagline { display: none; }
+}
 
 .site-nav {
   display: flex;
