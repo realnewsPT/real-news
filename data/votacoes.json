@@ -1,27 +1,5 @@
 [
   {
-    "id": "2026-reducao-idade-reforma-chega",
-    "data": "2026-07-03",
-    "titulo": "Redução da idade da reforma para os 65 anos ou 40 anos de descontos (projeto do Chega)",
-    "tipo": "Projeto de Lei (Chega)",
-    "fase": "Votação na generalidade",
-    "resultado": "Rejeitado",
-    "votos": {
-      "PSD": "Contra",
-      "PS": "Contra",
-      "IL": "Contra",
-      "CDS-PP": "Contra",
-      "Livre": "Abstenção",
-      "PCP": "Abstenção",
-      "CHEGA": "A Favor",
-      "BE": "A Favor"
-    },
-    "voto_chega": "A Favor",
-    "voto_simbolico": false,
-    "notas": "Projeto de autoria do próprio Chega, chumbado por uma maioria que juntou PSD, PS, IL e CDS-PP. Foi este ponto que dominou o debate e impediu o acordo do Chega com o Governo sobre o pacote laboral, votado na mesma sessão (ver acima).",
-    "fonte_oficial": "https://eco.sapo.pt/2026/07/03/parlamento-rejeita-fim-do-pagamento-de-subvencoes-vitalicias-e-antecipacao-da-idade-da-reforma/"
-  },
-  {
     "id": "2026-fim-subvencoes-vitalicias",
     "data": "2026-07-03",
     "titulo": "Fim do pagamento de subvenções vitalícias a antigos titulares de cargos políticos",
@@ -44,6 +22,28 @@
     "voto_simbolico": true,
     "motivo_simbolico": "PSD e PS, que juntos somam maioria absoluta, votaram ambos contra — chumbo garantido independentemente do sentido de voto do Chega. Apoiar o fim de um privilégio impopular dos antigos titulares de cargos políticos rende imagem sem qualquer custo, porque o resultado nunca esteve em aberto.",
     "notas": "",
+    "fonte_oficial": "https://eco.sapo.pt/2026/07/03/parlamento-rejeita-fim-do-pagamento-de-subvencoes-vitalicias-e-antecipacao-da-idade-da-reforma/"
+  },
+  {
+    "id": "2026-reducao-idade-reforma-chega",
+    "data": "2026-07-03",
+    "titulo": "Redução da idade da reforma para os 65 anos ou 40 anos de descontos (projeto do Chega)",
+    "tipo": "Projeto de Lei (Chega)",
+    "fase": "Votação na generalidade",
+    "resultado": "Rejeitado",
+    "votos": {
+      "PSD": "Contra",
+      "PS": "Contra",
+      "IL": "Contra",
+      "CDS-PP": "Contra",
+      "Livre": "Abstenção",
+      "PCP": "Abstenção",
+      "CHEGA": "A Favor",
+      "BE": "A Favor"
+    },
+    "voto_chega": "A Favor",
+    "voto_simbolico": false,
+    "notas": "Projeto de autoria do próprio Chega, chumbado por uma maioria que juntou PSD, PS, IL e CDS-PP. Foi este ponto que dominou o debate e impediu o acordo do Chega com o Governo sobre o pacote laboral, votado na mesma sessão (ver acima).",
     "fonte_oficial": "https://eco.sapo.pt/2026/07/03/parlamento-rejeita-fim-do-pagamento-de-subvencoes-vitalicias-e-antecipacao-da-idade-da-reforma/"
   },
   {
@@ -96,24 +96,27 @@
     "fonte_oficial": "https://www.cmjornal.pt/sociedade/detalhe/aprovado-diploma-que-proibe-bandeiras-ideologicas-partidarias-ou-associativas-em-edificios-publicos"
   },
   {
-    "id": "2026-iva-zero-bens-essenciais-ps",
+    "id": "2026-pl513-controlo-precos-cabaz-alimentar",
     "data": "2026-04-10",
-    "titulo": "Proposta do PS para IVA zero (ou reduzido) em bens alimentares essenciais",
-    "tipo": "Projeto de Resolução",
-    "fase": "Votação final global",
+    "titulo": "Regime de Controlo de Preços sobre os Produtos do Cabaz Alimentar Essencial (PCP)",
+    "tipo": "Projeto de Lei 513/XVII/1.ª (PCP)",
+    "fase": "Votação na generalidade",
     "resultado": "Rejeitado",
     "votos": {
-      "PS": "A Favor",
       "PSD": "Contra",
       "CHEGA": "Contra",
+      "PS": "Contra",
       "IL": "Abstenção",
-      "CDS-PP": "Contra"
+      "Livre": "A Favor",
+      "PCP": "A Favor",
+      "CDS-PP": "Contra",
+      "BE": "A Favor",
+      "PAN": "A Favor"
     },
     "voto_chega": "Contra",
     "voto_simbolico": false,
-    "notas": "Todas as propostas de IVA zero em bens alimentares essenciais apresentadas nesta sessão (de PS, PCP, PAN, Livre, BE e do próprio Chega) foram rejeitadas — em parte devido à \"norma-travão\" constitucional para iniciativas que impliquem perda de receita sem o aval do Governo. Em contraste com o voto a favor do Chega numa medida semelhante em 2023 (ver acima), desta vez o partido votou contra a proposta do PS.",
-    "fonte_oficial": "https://sapo.pt/artigo/parlamento-rejeita-todas-as-propostas-para-iva-zero-nos-bens-essenciais-69d931f12599cb6fa3db8ee6",
-    "imagem_preview": "https://mb.web.sapo.io/b633706e8318f5ad2e3c8613a7e6deb67d5ca20b.jpg"
+    "notas": "Grelha de votação oficial da Assembleia da República (votação na generalidade). O Chega votou contra este regime de controlo de preços do cabaz alimentar essencial, tal como PSD, PS e CDS-PP.",
+    "fonte_oficial": "https://www.publico.pt/2026/04/10/politica/noticia/parlamento-chumba-propostas-aplicar-iva-zero-bens-alimentares-essenciais-2170792"
   },
   {
     "id": "2026-pl514-preco-referencia-combustiveis-gpl",
@@ -139,27 +142,24 @@
     "fonte_oficial": "https://www.publico.pt/2026/04/10/politica/noticia/parlamento-chumba-propostas-aplicar-iva-zero-bens-alimentares-essenciais-2170792"
   },
   {
-    "id": "2026-pl513-controlo-precos-cabaz-alimentar",
+    "id": "2026-iva-zero-bens-essenciais-ps",
     "data": "2026-04-10",
-    "titulo": "Regime de Controlo de Preços sobre os Produtos do Cabaz Alimentar Essencial (PCP)",
-    "tipo": "Projeto de Lei 513/XVII/1.ª (PCP)",
-    "fase": "Votação na generalidade",
+    "titulo": "Proposta do PS para IVA zero (ou reduzido) em bens alimentares essenciais",
+    "tipo": "Projeto de Resolução",
+    "fase": "Votação final global",
     "resultado": "Rejeitado",
     "votos": {
+      "PS": "A Favor",
       "PSD": "Contra",
       "CHEGA": "Contra",
-      "PS": "Contra",
       "IL": "Abstenção",
-      "Livre": "A Favor",
-      "PCP": "A Favor",
-      "CDS-PP": "Contra",
-      "BE": "A Favor",
-      "PAN": "A Favor"
+      "CDS-PP": "Contra"
     },
     "voto_chega": "Contra",
     "voto_simbolico": false,
-    "notas": "Grelha de votação oficial da Assembleia da República (votação na generalidade). O Chega votou contra este regime de controlo de preços do cabaz alimentar essencial, tal como PSD, PS e CDS-PP.",
-    "fonte_oficial": "https://www.publico.pt/2026/04/10/politica/noticia/parlamento-chumba-propostas-aplicar-iva-zero-bens-alimentares-essenciais-2170792"
+    "notas": "Todas as propostas de IVA zero em bens alimentares essenciais apresentadas nesta sessão (de PS, PCP, PAN, Livre, BE e do próprio Chega) foram rejeitadas — em parte devido à \"norma-travão\" constitucional para iniciativas que impliquem perda de receita sem o aval do Governo. Em contraste com o voto a favor do Chega numa medida semelhante em 2023 (ver acima), desta vez o partido votou contra a proposta do PS.",
+    "fonte_oficial": "https://sapo.pt/artigo/parlamento-rejeita-todas-as-propostas-para-iva-zero-nos-bens-essenciais-69d931f12599cb6fa3db8ee6",
+    "imagem_preview": "https://mb.web.sapo.io/b633706e8318f5ad2e3c8613a7e6deb67d5ca20b.jpg"
   },
   {
     "id": "2026-isp-reducao-limites-combustiveis",

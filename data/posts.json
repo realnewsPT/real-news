@@ -20,25 +20,6 @@
     ]
   },
   {
-    "id": "2026-06-bancada-surpreendida-laboral",
-    "data_publicacao": "2026-06-19",
-    "titulo": "Até a própria bancada do Chega ficou surpreendida com o voto contra o pacote laboral",
-    "categoria": "Incoerência de voto",
-    "resumo": "O Chega chumbou, ao lado de toda a esquerda, a reforma laboral do Governo que apoia noutras matérias — depois de a condicionar a uma redução da idade da reforma que o Executivo recusou. Segundo a notícia, a decisão de última hora apanhou de surpresa a própria bancada parlamentar do partido.",
-    "pessoa": "Chega (bancada parlamentar)",
-    "imagem_preview": "https://zap.aeiou.pt/wp-content/uploads/2026/06/f26b1d3648b717561aca781a0bc2f88b-1500x1000.jpg",
-    "fonte": {
-      "nome": "ZAP",
-      "url": "https://zap.aeiou.pt/bancada-chega-surpreendida-voto-laboral-750258"
-    },
-    "fontes_adicionais": [],
-    "tags": [
-      "votações",
-      "reforma laboral",
-      "incoerência"
-    ]
-  },
-  {
     "id": "2026-06-pacote-laboral-chumbado",
     "data_publicacao": "2026-06-19",
     "titulo": "Chega junta-se à esquerda e chumba a reforma laboral do próprio Governo que apoia noutras matérias",
@@ -55,6 +36,25 @@
       "votações",
       "reforma laboral",
       "governo"
+    ]
+  },
+  {
+    "id": "2026-06-bancada-surpreendida-laboral",
+    "data_publicacao": "2026-06-19",
+    "titulo": "Até a própria bancada do Chega ficou surpreendida com o voto contra o pacote laboral",
+    "categoria": "Incoerência de voto",
+    "resumo": "O Chega chumbou, ao lado de toda a esquerda, a reforma laboral do Governo que apoia noutras matérias — depois de a condicionar a uma redução da idade da reforma que o Executivo recusou. Segundo a notícia, a decisão de última hora apanhou de surpresa a própria bancada parlamentar do partido.",
+    "pessoa": "Chega (bancada parlamentar)",
+    "imagem_preview": "https://zap.aeiou.pt/wp-content/uploads/2026/06/f26b1d3648b717561aca781a0bc2f88b-1500x1000.jpg",
+    "fonte": {
+      "nome": "ZAP",
+      "url": "https://zap.aeiou.pt/bancada-chega-surpreendida-voto-laboral-750258"
+    },
+    "fontes_adicionais": [],
+    "tags": [
+      "votações",
+      "reforma laboral",
+      "incoerência"
     ]
   },
   {
